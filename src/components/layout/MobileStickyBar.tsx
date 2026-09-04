@@ -1,6 +1,6 @@
 "use client";
 
-import { Phone, MessageCircle, Mail } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 import { site } from "@/data/site";
 import { track } from "@/lib/analytics";
 import { useLeadForm } from "@/components/ui/LeadFormProvider";

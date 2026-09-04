@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, MessageCircle, Mail, X, ArrowRight } from "lucide-react";
+import { Phone, Mail, X, ArrowRight } from "lucide-react";
 
 import { site } from "@/data/site";
 import { track } from "@/lib/analytics";
@@ -192,20 +192,6 @@ export function ContactActions({
                                 </span>
                             </button>
                         </div>
-
-                        {/* Bottom action */}
-                        <button
-                            type="button"
-                            onClick={() => setMobileOpen(false)}
-                            className="group mt-5 flex w-full items-center justify-between border-b border-ink-900 pb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-ink-900"
-                        >
-                            <span>Close</span>
-
-                            <ArrowRight
-                                size={14}
-                                className="transition-transform duration-300 group-hover:translate-x-1"
-                            />
-                        </button>
                     </div>
                 </div>
             )}

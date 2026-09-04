@@ -4,7 +4,6 @@ import {
     GetLatestPriceButton,
     SiteVisitButton,
 } from "@/components/ui/LeadCTAs";
-import { ContactActions } from "@/components/ui/ContactActions";
 import { LeadForm } from "@/components/ui/LeadForm";
 export function ProjectHero({ project }: { project: Project }) {
     return (
