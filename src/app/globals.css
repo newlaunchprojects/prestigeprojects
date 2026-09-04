@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+:root {
+    /* Core palette — warm stone & bronze, grounded in Gurgaon's sandstone architecture */
+    --stone-50: #f8f6f1;
+    --stone-100: #eee9dd;
+    --stone-200: #e2dbc9;
+    --ink-900: #1b1a17;
+    --ink-700: #35322c;
+    --ink-500: #6b6558;
+    --bronze-500: #a9762f;
+    --bronze-600: #8f6226;
+    --bronze-100: #ede1cb;
+    --moss-700: #2f3b2e;
+
+    --background: var(--stone-50);
+    --foreground: var(--ink-900);
+
+    --font-display: "Fraunces Variable", ui-serif, Georgia, serif;
+    --font-body: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@theme inline {
+    --color-stone-50: var(--stone-50);
+    --color-stone-100: var(--stone-100);
+    --color-stone-200: var(--stone-200);
+    --color-ink-900: var(--ink-900);
+    --color-ink-700: var(--ink-700);
+    --color-ink-500: var(--ink-500);
+    --color-bronze-500: var(--bronze-500);
+    --color-bronze-600: var(--bronze-600);
+    --color-bronze-100: var(--bronze-100);
+    --color-moss-700: var(--moss-700);
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-display: var(--font-display);
+    --font-body: var(--font-body);
+}
+
+* {
+    border-color: var(--stone-200);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-display);
+    font-optical-sizing: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* visible focus ring across the site */
+:focus-visible {
+    outline: 2px solid var(--bronze-500);
+    outline-offset: 2px;
+}
+
+.container-page {
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .container-page {
+        padding-inline: 3rem;
+    }
+}
+@keyframes leadBackdropIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes leadFormIn {
+    from {
+        opacity: 0;
+        transform: translateY(28px) scale(0.98);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes leadContentIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-\[leadBackdropIn_350ms_ease-out\],
+    .animate-\[leadFormIn_450ms_cubic-bezier\(\.22\,1\,\.36\,1\)\],
+    .animate-\[leadContentIn_400ms_ease-out\] {
+        animation: none;
+    }
+}
+@keyframes leadBackdropOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes leadFormOut {
+    from {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(24px) scale(0.98);
+    }
+}
+@keyframes contactBackdropIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes contactSheetIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-\[contactBackdropIn_250ms_ease-out\],
+    .animate-\[contactSheetIn_350ms_cubic-bezier\(\.22\,1\,\.36\,1\)\] {
+        animation: none;
+    }
+}
