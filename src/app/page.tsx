@@ -11,7 +11,7 @@ import { projects } from "@/data/projects";
 export default function HomePage() {
     return (
         <div className="relative flex min-h-screen flex-col overflow-hidden">
-            <HeroBackground src="/main.png" alt="Gurgaon skyline at dusk" />
+            <HeroBackground src="/main.webp" alt="Gurgaon skyline at dusk" />
 
             <div className="relative z-10 flex flex-1 flex-col">
                 {/* Header */}
