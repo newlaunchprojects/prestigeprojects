@@ -9,7 +9,7 @@ export function Overview({ project }: { project: Project }) {
         >
             <div>
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
-                    {project.name} ProjectOverview
+                    {project.name} Project Overview
                 </h2>
                 <div className="mt-6 space-y-5">
                     {project.overview.map((para, i) => (
