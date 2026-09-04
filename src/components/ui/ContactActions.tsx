@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, Mail, X, ArrowRight } from "lucide-react";
+import { Phone, Mail, X } from "lucide-react";
 
 import { site } from "@/data/site";
 import { track } from "@/lib/analytics";
