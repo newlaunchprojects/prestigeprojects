@@ -6,7 +6,7 @@ import "./globals.css";
 import { LeadFormProvider } from "@/components/ui/LeadFormProvider";
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://indiabulls-projects-gurgaon.example.com"),
+    metadataBase: new URL("https://indiabullsprojectsgurgaon.vercel.app"),
     title: {
         default: "Indiabulls Projects Gurgaon | Estate & Club · Heights",
         template: "%s | Indiabulls Projects Gurgaon",
