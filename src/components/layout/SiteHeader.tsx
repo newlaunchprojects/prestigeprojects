@@ -61,7 +61,8 @@ export function SiteHeader() {
 
         if (!element) return;
 
-        const headerOffset = 105;
+        const headerOffset =
+            document.querySelector("header")?.offsetHeight || 0;
 
         const elementPosition =
             element.getBoundingClientRect().top + window.scrollY;
