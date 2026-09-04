@@ -4,6 +4,7 @@ import { Phone, MessageCircle, Mail } from "lucide-react";
 import { site } from "@/data/site";
 import { track } from "@/lib/analytics";
 import { useLeadForm } from "@/components/ui/LeadFormProvider";
+import { FaWhatsapp } from "react-icons/fa6";
 
 export function MobileStickyBar({ projectName }: { projectName: string }) {
     const { open } = useLeadForm();
@@ -28,7 +29,7 @@ export function MobileStickyBar({ projectName }: { projectName: string }) {
                 rel="noopener noreferrer"
                 className="flex flex-1 flex-col items-center gap-1 border-x border-stone-200 py-3 text-xs text-ink-900"
             >
-                <MessageCircle size={18} />
+                <FaWhatsapp size={18} />
                 WhatsApp
             </a>
             <button

@@ -70,11 +70,8 @@ export function ProjectHero({ project }: { project: Project }) {
                             <GetLatestPriceButton projectName={project.name} />
                             <SiteVisitButton
                                 projectName={project.name}
-                                className="border-stone-50/50 text-stone-50"
+                                className="border-stone-50/50 md:ml-15 text-stone-50"
                             />
-                            <div className="hidden lg:block">
-                                <ContactActions dark className="ml-1" />
-                            </div>
                         </div>
                     </div>
                     {/* RIGHT — LEAD FORM */}
