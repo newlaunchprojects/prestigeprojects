@@ -27,7 +27,7 @@ export async function POST(request: Request) {
             html: `
                 <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
                     <h2 style="margin-bottom: 24px;">
-                        New Website Lead
+                        Indiabulls Lead — ${projectName ?? "Website Enquiry"}
                     </h2>
 
                     <table style="width: 100%; border-collapse: collapse;">
@@ -101,7 +101,7 @@ export async function POST(request: Request) {
                     <hr style="margin: 30px 0; border: 0; border-top: 1px solid #eee;" />
 
                     <p style="font-size: 12px; color: #888;">
-                        This lead was submitted through the website.
+                        This lead was submitted through the Indiabulls website.
                     </p>
                 </div>
             `,
