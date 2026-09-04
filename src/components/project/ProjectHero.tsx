@@ -22,7 +22,7 @@ export function ProjectHero({ project }: { project: Project }) {
             />
             <div className="absolute inset-0 -z-10 bg-linear-to-t from-ink-900/85 via-ink-900/25 to-ink-900/40" />
             <div className="container-page w-full pb-14 pt-32 text-stone-50 md:pb-20">
-                <div className="grid items-end gap-10 lg:grid-cols-[1fr_380px]">
+                <div className="grid items-end gap-10 lg:grid-cols-[1fr_410px]">
                     {/* LEFT — EXISTING HERO CONTENT */}
                     <div>
                         {project.status && (

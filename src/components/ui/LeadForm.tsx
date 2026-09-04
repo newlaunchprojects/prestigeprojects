@@ -100,7 +100,7 @@ export function LeadForm({
     }
 
     return (
-        <form onSubmit={handleSubmit} className={`space-y-5 ${className}`}>
+        <form onSubmit={handleSubmit} className={`space-y-3 ${className}`}>
             {/* Name */}
             <div>
                 <label
@@ -126,7 +126,7 @@ export function LeadForm({
                         }
                     }}
                     placeholder="Your full name"
-                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-3 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
+                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-1 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
                 />
             </div>
 
@@ -146,7 +146,7 @@ export function LeadForm({
                     required
                     autoComplete="tel"
                     placeholder="+91 XXXXX XXXXX"
-                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-3 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
+                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-1 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
                 />
             </div>
 
@@ -168,7 +168,7 @@ export function LeadForm({
                     type="email"
                     autoComplete="email"
                     placeholder="you@example.com"
-                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-3 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
+                    className="w-full border-0 border-b border-stone-300 bg-transparent px-0 py-1 text-ink-900 outline-none transition-colors placeholder:text-stone-400 focus:border-bronze-600"
                 />
             </div>
 
