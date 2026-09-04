@@ -25,6 +25,15 @@ export const metadata: Metadata = {
             "Premium residential projects in Gurgaon — Indiabulls Estate & Club and Indiabulls Heights.",
         type: "website",
         locale: "en_IN",
+        url: "https://indiabullsprojectsgurgaon.vercel.app",
+        siteName: "Indiabulls Projects Gurgaon",
+        images: [
+            {
+                url: "https://indiabullsprojectsgurgaon.vercel.app/og-image.webp",
+                width: 1200,
+                height: 630,
+            },
+        ],
     },
 };
 
