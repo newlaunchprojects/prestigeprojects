@@ -4,6 +4,7 @@ import "@fontsource-variable/fraunces/wght-italic.css";
 import "@fontsource-variable/inter";
 import "./globals.css";
 import { LeadFormProvider } from "@/components/ui/LeadFormProvider";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://indiabullsprojectsgurgaon.vercel.app"),
@@ -43,6 +44,7 @@ export default function RootLayout({
     return (
         <html lang="en" className="h-full">
             <body className="min-h-full flex flex-col bg-stone-50 text-ink-900 antialiased">
+                <Analytics />
                 <LeadFormProvider>{children}</LeadFormProvider>
             </body>
         </html>
