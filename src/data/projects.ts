@@ -18,6 +18,7 @@ export type Project = {
     shortDescription: string;
     heroImage: string;
     cardImage: string;
+    openGraphImage?: string;
     logo?: string;
     status?: string;
     propertyType?: string;
@@ -56,6 +57,7 @@ export const projects: Project[] = [
             "A low-density residential address built around a private clubhouse, layered landscaping and generously proportioned homes.",
         heroImage: "/highlights/e3.png",
         cardImage: "/highlights/e3.png",
+        openGraphImage: "/estate&clubOgimage.webp",
         status: "Under Construction",
         propertyType: "Premium Residential Apartments",
         reraNumber: "RC/REP/HARERA/GGM/897/629/2024/124",
@@ -288,6 +290,7 @@ export const projects: Project[] = [
             "A high-rise residential development planned around efficient layouts, open amenity decks and skyline views.",
         heroImage: "/heroImage/height.png",
         cardImage: "/heroImage/height.png",
+        openGraphImage: "/heightOgimage.webp",
         status: "Under Construction",
         propertyType: "Premium Residential Apartments",
         reraNumber: "RC/REP/HARERA/GGM/160(A) of 2017/7(3)/89/2025/31",
