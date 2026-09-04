@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
 import { track } from "@/lib/analytics";
 
@@ -67,8 +67,8 @@ export function LeadForm({
                 config: configName,
             });
 
-            setSubmitted(true);
             form.reset();
+            setSubmitted(true);
         } catch (error) {
             console.error("Lead submission failed:", error);
 
@@ -79,6 +79,26 @@ export function LeadForm({
             setIsSubmitting(false);
         }
     };
+
+    // Automatically reset the form after successful submission.
+    useEffect(() => {
+        if (!submitted) return;
+
+        const timer = window.setTimeout(() => {
+            setSubmitted(false);
+            setSubmitError(null);
+            setStartedTracked(false);
+
+            // Put focus back into the first field.
+            window.setTimeout(() => {
+                firstFieldRef.current?.focus();
+            }, 100);
+        }, 3000);
+
+        return () => {
+            window.clearTimeout(timer);
+        };
+    }, [submitted]);
 
     if (submitted) {
         return (
