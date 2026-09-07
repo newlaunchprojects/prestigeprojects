@@ -15,6 +15,8 @@ const sections = [
     { id: "floor-plans", label: "Floor Plans" },
     { id: "gallery", label: "Gallery" },
     { id: "location", label: "Location" },
+    { id: "why-this-project", label: "Why This Project" },
+    { id: "faq", label: "FAQ" },
 ];
 
 export function SiteHeader() {
@@ -98,7 +100,7 @@ export function SiteHeader() {
 
                     {/* Desktop navigation */}
                     <nav className="hidden min-w-0 flex-1 lg:block">
-                        <div className="flex items-center justify-center gap-5 xl:gap-7">
+                        <div className="flex items-center justify-center gap-5">
                             {sections.map((section) => {
                                 const isActive = activeSection === section.id;
 
@@ -114,13 +116,12 @@ export function SiteHeader() {
                                             relative
                                             shrink-0
                                             cursor-pointer
-                                            py-2
-                                            text-[9px]
+                                            py-1
+                                            text-[10px]
                                             font-medium
                                             uppercase
-                                            tracking-[0.16em]
+                                            tracking-[0.06em]
                                             transition-colors
-                                            xl:text-[10px]
                                             ${
                                                 isActive
                                                     ? "text-ink-900"

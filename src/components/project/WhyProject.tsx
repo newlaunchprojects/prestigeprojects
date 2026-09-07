@@ -2,7 +2,10 @@ import type { Project } from "@/data/projects";
 
 export function WhyProject({ project }: { project: Project }) {
     return (
-        <section className="container-page py-20 md:py-28">
+        <section
+            id="why-this-project"
+            className="container-page py-20 md:py-28"
+        >
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                 Why {project.name}
             </h2>
