@@ -12,6 +12,7 @@ export type Project = {
     name: string;
     shortName: string;
     location: string;
+    locationlink: string;
     positioning: string;
     startingPrice: string;
     bookingAmount: string;
@@ -49,6 +50,8 @@ export const projects: Project[] = [
         name: "Indiabulls Estate & Club",
         shortName: "Estate & Club",
         location: "Sector 104, Gurgaon",
+        locationlink:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.834416873323!2d76.99431127570482!3d28.484532890785722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17f6db078333%3A0xc1ad1b6cef1fde3a!2sIndiabulls%20Estate%20Sector%20104!5e0!3m2!1sen!2sin!4v1788760843684!5m2!1sen!2sin",
         positioning:
             "Refined residences with a lifestyle-led community experience.",
         startingPrice: "4.25 Cr*",
@@ -198,22 +201,22 @@ export const projects: Project[] = [
             {
                 name: "Dwarka Expressway",
                 description:
-                    "Positioned with access toward the Dwarka Expressway corridor (verify exact distance before launch).",
+                    "A prime Sector 104 address positioned directly on Dwarka Expressway, connecting residents seamlessly to Delhi and Gurugram.",
             },
             {
                 name: "NH-48",
                 description:
-                    "Connectivity toward NH-48 and central Gurgaon (verify before launch).",
+                    "Easy access toward NH-48 provides connectivity to major business districts, commercial hubs and key destinations across Gurugram.",
             },
             {
                 name: "IGI Airport",
                 description:
-                    "Within the wider Gurgaon–airport catchment (verify exact travel time before launch).",
+                    "Reach Indira Gandhi International Airport in approximately 15 minutes, making domestic and international travel more convenient.",
             },
             {
-                name: "Schools & hospitals",
+                name: "Schools & Hospitals",
                 description:
-                    "Max Hospital 15 Minutes & Delhi Public School 1 Minutes away.",
+                    "DPS and HSV International School are approximately 1 minute away, with Max Hospital, Park Hospital and Manipal Hospital around 15 minutes from the project.",
             },
         ],
         whyThisProject: [
@@ -266,15 +269,6 @@ export const projects: Project[] = [
                 question: "Is Indiabulls Estate & Club RERA registered?",
                 answer: "The RERA registration number will be published here once confirmed and verified.",
             },
-            {
-                question: "How can I schedule a site visit?",
-                answer: "Use the Schedule Site Visit button to request a convenient time, or call/WhatsApp the number listed on this page.",
-            },
-            {
-                question:
-                    "How can I request the brochure or more project details?",
-                answer: "Use the Download Brochure button to request the latest brochure and project details.",
-            },
         ],
     },
     {
@@ -282,6 +276,8 @@ export const projects: Project[] = [
         name: "Indiabulls Heights",
         shortName: "Heights",
         location: "Sector 104, Gurgaon",
+        locationlink:
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.8309394062608!2d76.99427899999999!3d28.4846376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17b94520cdc3%3A0xcb07424a9845f4c7!2sOne%20Indiabulls!5e0!3m2!1sen!2sin!4v1788760942995!5m2!1sen!2sin",
         positioning:
             "Contemporary residences designed around comfort and modern living.",
         startingPrice: "4.25 Cr*",
@@ -422,22 +418,22 @@ export const projects: Project[] = [
             {
                 name: "NH-48",
                 description:
-                    "Positioned relative to NH-48 (verify exact distance before launch).",
+                    "Convenient connectivity toward NH-48 provides access to major destinations across Gurugram and Delhi-NCR.",
             },
             {
-                name: "Metro connectivity",
+                name: "Metro Connectivity",
                 description:
-                    "Sample — confirm nearest metro station and distance before launch.",
+                    "Yashobhoomi and Dwarka Sector 21 metro connectivity provides access to Delhi and the wider NCR region.",
             },
             {
                 name: "IGI Airport",
                 description:
-                    "Within the wider Gurgaon–airport catchment (verify exact travel time before launch).",
+                    "Indira Gandhi International Airport is approximately 15 minutes away, offering convenient connectivity for domestic and international travel.",
             },
             {
-                name: "Business districts",
+                name: "Business & Lifestyle Hubs",
                 description:
-                    "Sample — list verified proximity to Cyber City / Golf Course Road before launch.",
+                    "The project offers convenient access to Conscient One, Aerocity, Diplomatic Enclave, Yashobhoomi and other major business and lifestyle destinations.",
             },
         ],
         whyThisProject: [
@@ -488,15 +484,6 @@ export const projects: Project[] = [
             {
                 question: "Is Indiabulls Heights RERA registered?",
                 answer: "The RERA registration number will be published here once confirmed and verified.",
-            },
-            {
-                question: "How can I schedule a site visit?",
-                answer: "Use the Schedule Site Visit button to request a convenient time, or call/WhatsApp the number listed on this page.",
-            },
-            {
-                question:
-                    "How can I request the brochure or more project details?",
-                answer: "Use the Download Brochure button to request the latest brochure and project details.",
             },
         ],
     },

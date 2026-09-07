@@ -1,7 +1,7 @@
 import type { Project } from "@/data/projects";
 
 export function LocationSection({ project }: { project: Project }) {
-    const mapQuery = encodeURIComponent(`${project.name}, ${project.location}`);
+    // const mapQuery = encodeURIComponent(`${project.name}, ${project.location}`);
     return (
         <section id="location" className="container-page py-20 md:py-28">
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
@@ -17,7 +17,7 @@ export function LocationSection({ project }: { project: Project }) {
                 <div className="aspect-4/3 w-full overflow-hidden rounded-[3px] border border-stone-200">
                     <iframe
                         title={`Map showing ${project.location}`}
-                        src={`https://www.google.com/maps?q=${mapQuery}&output=embed`}
+                        src={project.locationlink}
                         className="h-full w-full"
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
