@@ -54,7 +54,7 @@ export function ProjectCard({
             className="w-[78vw] max-w-90 shrink-0 snap-center md:w-[320px] lg:w-90"
         >
             <Link
-                href={`/projects/${project.slug}`}
+                href={`/${project.slug}`}
                 onClick={() =>
                     track("project_card_click", { project: project.slug })
                 }
