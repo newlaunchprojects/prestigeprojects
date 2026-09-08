@@ -73,12 +73,13 @@ export const projects: Project[] = [
             { label: "Total Units", value: "38" },
         ],
         overview: [
-            "Indiabulls Estate & Club is planned as a low-rise, low-density residential community set around a central clubhouse and landscaped gardens, prioritising light, air and privacy over density.",
-            "The architectural language favours long horizontal lines, deep balconies and generous glazing, with the clubhouse positioned as the social heart of the development rather than an afterthought.",
-            "Homes are planned with clearly zoned living and private areas, wide frontages and cross-ventilation across most units.",
-            "Indiabulls Estate & Club is planned as a low-rise, low-density residential community set around a central clubhouse and landscaped gardens, prioritising light, air and privacy over density.",
-            "The architectural language favours long horizontal lines, deep balconies and generous glazing, with the clubhouse positioned as the social heart of the development rather than an afterthought.",
-            "Homes are planned with clearly zoned living and private areas, wide frontages and cross-ventilation across most units.",
+            "Taking today’s modernization into consideration, the residential lifestyle has shifted more towards comfort and luxury blended together.",
+            "The Indiabulls Estate and Club Sector 104 Gurgaon is one such property that ticks the list of the potential buyers and investors.",
+            "The property is situated in an upscale neighborhood that brings convenience and lifestyle within reach for the residents.",
+            "The apartments within the project have 3 BHK and 4 BHK options with special layouts and are packed with natural light flowing through every corner of the house.",
+            "Also, the greenery around the township opens the doorway to freshness and connectivity to nature.",
+            "The apartments at Indiabulls Estate and Club Sector 104 Gurgaon are embedded with smart home features accompanied by prime fittings and fixtures from reputed brands within bedrooms, living room, kitchen, and bathrooms.",
+            "The Indiabulls Estate and Club Sector Price is now available for potential buyers and investors to enquire about.",
         ],
         highlights: [
             {
@@ -87,12 +88,6 @@ export const projects: Project[] = [
                     "A limited number of units per acre, prioritising open space, light and privacy over density.",
                 image: "/highlights/e6.png",
             },
-            // {
-            //     title: "Clubhouse-led lifestyle",
-            //     description:
-            //         "A full-scale private clubhouse anchors the community, planned as the everyday social centre rather than an amenity checklist.",
-            //     image: "/highlights/e2.png",
-            // },
             {
                 title: "Layered landscaping",
                 description:
@@ -221,53 +216,48 @@ export const projects: Project[] = [
         ],
         whyThisProject: [
             {
-                title: "A quieter address",
+                title: "Indiabulls Estate and Club Amenities",
                 description:
-                    "Low-density planning and generous open space set it apart from denser high-rise clusters nearby. Low-density planning and generous open space set it apart from denser high-rise clusters nearby. Low-density planning and generous open space set it apart from denser high-rise clusters nearby. Low-density planning and generous open space set it apart from denser high-rise clusters nearby. Low-density planning and generous open space set it apart from denser high-rise clusters nearby. Low-density planning and generous open space set it apart from denser high-rise clusters nearby.",
+                    "Coming to the facilities, the Indiabulls Estate and Club Amenities are curated in a way that they not only offer a luxurious lifestyle, but also ensure that its residents are offered all conveniences at their doorstep. The residents are offered luxurious swimming pools situated both indoors and outdoors. On the other hand, there are wellness facilities like a spa and sauna to let residents relax. The Indiabulls Estate and Club Amenities also offer an amusement park for kids and also, and adults and elders can access a multi-sports arena with the availability of tennis, badminton, pickleball, and more. The fitness centre is developed with a fully equipped gymnasium and has a dedicated space for yoga and meditation.",
             },
             {
-                title: "Clubhouse as everyday amenity",
+                title: "Indiabulls Estate and Club Brochure",
                 description:
-                    "The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events. The clubhouse is planned for daily use, not just occasional events.",
-            },
-            {
-                title: "Configuration depth",
-                description:
-                    "3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families. 3 and 4 BHK layouts suit both growing and established families.",
+                    "The Indiabulls Estate and Club Brochure justifies the serenity surrounding this township. It also comprise the overview of walking trails, landscaped gardens, and sitting spaces, specifically for the elderly residents. Beyond the facilities, this township is highly secure, with an advanced security system, a gated community, trained professionals, and round-the-clock concierge services. Additionally, there is parking space and uninterrupted water and power supply. The potential buyers can explore more about the essentials on the brochure available.",
             },
             {
                 title: "Sector 104 positioning",
                 description:
-                    "Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch). Located within Gurgaon's western growth corridor (verify current infrastructure status before launch).",
+                    "Positioned right in the heart of the Dwarka Expressway, Indiabulls Estate and Club Sector 104 Gurgaon fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the Indiabulls Estate and Club, Sector 104 Gurgaon. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.",
             },
         ],
         faqs: [
             {
-                question: "Where is Indiabulls Estate & Club located?",
-                answer: "The project is located in Sector 104, Gurgaon. Exact address and access points will be confirmed before launch.",
+                question: "Where is Indiabulls Estate and Club located?",
+                answer: "This township is located at Sector 104, Dwarka Expressway, Gurugram.",
+            },
+            {
+                question: "What are the amenities available at the property?",
+                answer: "The Indiabulls Estate and Club amenities include sports, indoor and outdoor pools, cafe, fitness centre, and spa facilities.",
             },
             {
                 question:
-                    "What configurations are available at Indiabulls Estate & Club?",
-                answer: "The project offers 3 BHK and 4 BHK residences. Final configuration details will be confirmed before launch.",
-            },
-            {
-                question: "What are the approximate apartment sizes?",
-                answer: "Sample sizes range from approximately 2,400 to 3,700 sq. ft. across configurations; final sizes will be confirmed before launch.",
+                    " What configurations are available at Indiabulls Estate and Club to choose from?",
+                answer: "This project offers spacious 3 BHK and 4 BHK apartments.",
             },
             {
                 question:
-                    "How can I get the latest price for Indiabulls Estate & Club?",
-                answer: "Use the Get Latest Price button on this page to share your details, and the team will share current pricing.",
+                    "How is the project connected with other parts of the city?",
+                answer: "The Indiabulls Estate and Club is connected via major highways and Dwarka Expressway.",
+            },
+            {
+                question: "Is Indiabulls Estate and Club worth investment?",
+                answer: "Yes, it is. This project is close to IGI Airport and is well-connected with the employment corridors of the city.",
             },
             {
                 question:
-                    "What amenities are available at Indiabulls Estate & Club?",
-                answer: "Planned amenities span fitness, recreation, club & social spaces, children's areas, landscaping and security — see the Amenities section above.",
-            },
-            {
-                question: "Is Indiabulls Estate & Club RERA registered?",
-                answer: "The RERA registration number will be published here once confirmed and verified.",
+                    "What makes Indiabulls Estate and Club Sector 104 Gurgaon different from other projects?",
+                answer: "This township is covered with large green spaces and has a vast clubhouse, along with resort-style facilities.",
             },
         ],
     },
