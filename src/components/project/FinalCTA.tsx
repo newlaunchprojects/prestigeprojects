@@ -3,7 +3,7 @@ import { EnquireNowButton, BrochureButton } from "@/components/ui/LeadCTAs";
 
 export function FinalCTA({ project }: { project: Project }) {
     return (
-        <section className="container-page py-24 text-center md:py-32">
+        <section className="container-page py-14 text-center md:py-22">
             <h2 className="mx-auto max-w-xl font-display text-3xl text-ink-900 md:text-4xl">
                 Considering {project.name}?
             </h2>

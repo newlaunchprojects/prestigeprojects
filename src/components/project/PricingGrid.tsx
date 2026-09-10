@@ -3,7 +3,7 @@ import { GetLatestPriceButton } from "@/components/ui/LeadCTAs";
 
 export function PricingGrid({ project }: { project: Project }) {
     return (
-        <section id="pricing" className="container-page py-20 md:py-28">
+        <section id="pricing" className="container-page py-10 md:py-18">
             <div className="mb-12 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
                 <div>
                     <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-bronze-600">

@@ -5,7 +5,7 @@ export function Amenities({ project }: { project: Project }) {
     return (
         <section
             id="amenities"
-            className="bg-moss-700 py-20 text-stone-50 md:py-28"
+            className="bg-moss-700 py-10 text-stone-50 md:py-18"
         >
             <div className="container-page">
                 <h2 className="font-display text-3xl md:text-4xl">

@@ -59,7 +59,7 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
             </div>
             <div
                 className={
-                    "container-page pb-6 text-xs " +
+                    "container-page lg:pb-6 pb-18 text-xs " +
                     (minimal ? "text-stone-50/50" : "text-ink-500")
                 }
             >

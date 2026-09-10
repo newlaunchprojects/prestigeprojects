@@ -7,7 +7,7 @@ import { LeadForm } from "@/components/ui/LeadForm";
 
 export function FAQSection({ project }: { project: Project }) {
     return (
-        <section id="faq" className="bg-stone-100/60 py-20 md:py-28">
+        <section id="faq" className="bg-stone-100/60 py-10 md:py-18">
             <div className="container-page">
                 <div className="grid gap-12 lg:grid-cols-[1fr_420px]">
                     {/* FAQ */}

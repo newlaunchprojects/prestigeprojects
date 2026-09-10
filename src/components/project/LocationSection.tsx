@@ -3,7 +3,7 @@ import type { Project } from "@/data/projects";
 export function LocationSection({ project }: { project: Project }) {
     // const mapQuery = encodeURIComponent(`${project.name}, ${project.location}`);
     return (
-        <section id="location" className="container-page py-20 md:py-28">
+        <section id="location" className="container-page py-10 md:py-18">
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                 {project.name} Location &amp; Connectivity
             </h2>

@@ -54,7 +54,7 @@ export default async function ProjectPage({
     return (
         <>
             <SiteHeader />
-            <main className="pb-16 md:pb-0">
+            <main>
                 <ProjectHero project={project} />
                 <QuickFacts project={project} />
                 <Overview project={project} />

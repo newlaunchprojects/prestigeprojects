@@ -19,7 +19,7 @@ export function FloorPlans({ project }: { project: Project }) {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
     return (
-        <section id="floor-plans" className="bg-stone-100/60 py-20 md:py-28">
+        <section id="floor-plans" className="bg-stone-100/60 py-10 md:py-18">
             <div className="container-page">
                 <h2 className="mb-3 font-display text-3xl text-ink-900 md:text-4xl">
                     {project.name} Floor Plans &amp; Master Plan

@@ -5,7 +5,7 @@ export function Overview({ project }: { project: Project }) {
     return (
         <section
             id="overview"
-            className="container-page grid gap-10 py-20 md:grid-cols-2 md:gap-16 md:py-28"
+            className="container-page grid gap-10 py-10 md:grid-cols-2 md:gap-16 md:py-18"
         >
             <div>
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">

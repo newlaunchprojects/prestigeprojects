@@ -3,7 +3,7 @@ import type { Project } from "@/data/projects";
 
 export function Highlights({ project }: { project: Project }) {
     return (
-        <section id="highlights" className="bg-stone-100/60 py-20 md:py-28">
+        <section id="highlights" className="bg-stone-100/60 py-10 md:py-18">
             <div className="container-page mb-12">
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                     {project.name} Project Highlights

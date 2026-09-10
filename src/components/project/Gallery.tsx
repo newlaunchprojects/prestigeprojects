@@ -9,7 +9,7 @@ export function Gallery({ project }: { project: Project }) {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
     return (
-        <section id="gallery" className="container-page py-20 md:py-28">
+        <section id="gallery" className="container-page py-10 md:py-18">
             <h2 className="mb-10 font-display text-3xl text-ink-900 md:text-4xl">
                 {project.name} Gallery
             </h2>
