@@ -289,9 +289,11 @@ export const projects: Project[] = [
             { label: "Total Units", value: "48" },
         ],
         overview: [
-            "Indiabulls Heights is planned as a vertical residential community, using tower height to open up amenity decks, wider setbacks and long-range views at upper levels.",
-            "Layouts are planned for efficient, functional living — clearly zoned bedrooms, uninterrupted living spaces and service areas kept separate from the main circulation.",
-            "The amenity program is distributed across ground-level and elevated decks, giving residents multiple distinct outdoor experiences within the same address.",
+            "IIndiabulls Real Estate is one of the renowned developers and is now ready with its new residential project, which is located in the prime location of Sector 104, Gurugram.",
+            " To begin the Indiabulls Heights Overview, this property comes with an elegant design and the finest infrastructure in the area.",
+            "This residential property comprises comfortable and luxurious 2 BHK and 3 BHK apartments, which have their private balconies and modern interiors.",
+            "Furthermore, this property has a lifestyle-focused environment, wherein the residents can enjoy top-class facilities and seamless connectivity.",
+            "The apartments, too, are spacious and hold a strong space to accommodate any size of family.",
         ],
         highlights: [
             {
@@ -428,52 +430,52 @@ export const projects: Project[] = [
         ],
         whyThisProject: [
             {
-                title: "Height as an amenity",
+                title: "Everything About Indiabulls Heights Sector 104",
                 description:
-                    "Elevated decks and upper-floor units are planned to make the most of view corridors.",
+                    "From well-constructed architecture to the finest interiors, this property offers a premium range of apartments. The homes in the property come in 2 BHK and 3 BHK configurations. Each apartment has spacious bedrooms and living areas, accompanied by a modular kitchen. Likewise, the bathrooms have fittings and fixtures from reputed brands. The development of the project has been done with Vastu compliance. Similarly, this residential project is earthquake-resistant, wherein the walls stand strong on the RCC structure. The interiors of the property have been curated, keeping the needs of the lifestyle in consideration. The Indiabulls Heights Sector 104 Gurgaon, thus, is a perfect combination of luxury, comfort, and modern life amenities.",
             },
             {
-                title: "Efficient, modern layouts",
+                title: "The Pricing and More",
                 description:
-                    "Layouts are designed to minimise wasted space across configurations.",
+                    "When it comes to understanding the Indiabulls Heights price for the apartments, potential buyers and investors will make their selection based on multiple factors. The current rates of the Indiabulls Heights vary depending on the apartment size, floor, and configurations. As the property prices keep on fluctuating over time, the prices for these apartments too come along with flexible rates. However, buyers are eligible to avail the prime benefits of early investment, flexible payment plans, ease of choosing the preferred floors and configurations, and making the most of final pricing. Since the demand for property is already at a peak, investing early will result in a beneficial deal.",
             },
             {
-                title: "Distributed amenity program",
+                title: "Understanding the Brochure",
                 description:
-                    "Separate ground and elevated amenity zones give residents variety within one address.",
+                    "In order to get the best of the details, the Indiabulls Heights brochure offers a detailed overview of the project. The brochure of this residential property consists of details surrounding floor plans, amenities, overall development, and specifications. The official website of Indiabulls Heights offers the option for potential buyers and investors to download the brochure. Also, buyers can compare configurations and lifestyle facilities. The brochure also offers details on the location and its seamless connectivity with the city’s hotspots, reputed schools, top hospitals, and employment corridors at Sector 104.",
             },
             {
-                title: "Central Gurgaon access",
+                title: "Exploring Amenities of the Project",
                 description:
-                    "Positioned for access to Gurgaon's key employment and business corridors (verify before launch).",
+                    "When it comes to the Indiabulls Heights amenities, this property is packed with lifestyle facilities that make the residential experience for residents worthwhile. This property offers a range of facilities that include wellness, leisure, and recreation. The residents are offered a swimming pool, on-site restaurant, and gymnasium, while the kids get access to a multi-sports arena equipped with basketball, a play area, cricket, and tennis, etc. The property also has green spaces that enrich the lifestyle with fresh air and peace of mind. Similarly, the security standards are top-notch with a 5-tier security system. The water and power supply are uninterrupted, and car parking is also available.",
             },
         ],
         faqs: [
             {
-                question: "Where is Indiabulls Heights located?",
-                answer: "Indiabulls Heights is located in Gurgaon. Exact address and access points will be confirmed before launch.",
+                question: "Where is Indiabulls Heights Located?",
+                answer: "Indiabulls Heights is situated at Sector 104, Dwarka Expressway, Gurugram.",
+            },
+            {
+                question: "Is Indiabulls Heights RERA Registered?",
+                answer: "Yes, the project is registered under the RERA number: RC/REP/HARERA/GGM/160(A) of 2017/7(3)/89/2025/31.",
             },
             {
                 question:
-                    "What configurations are available at Indiabulls Heights?",
-                answer: "The project offers 3 BHK and 4 BHK residences. Final configuration details will be confirmed before launch.",
-            },
-            {
-                question: "What are the approximate apartment sizes?",
-                answer: "Sample sizes range from approximately 2,300 to 3,600 sq. ft. across configurations; final sizes will be confirmed before launch.",
+                    "What kind of apartments are available in Indiabulls Heights?",
+                answer: "The buyers can choose from 2 BHK and 3 BHK apartments; however, the floor plan varies depending on the floor and other specifications.",
             },
             {
                 question:
-                    "How can I get the latest price for Indiabulls Heights?",
-                answer: "Use the Get Latest Price button on this page to share your details, and the team will share current pricing.",
+                    "What are the facilities available at Indiabulls Heights?",
+                answer: "The amenities available include a swimming pool, gymnasium, spa, on-site restaurant, sports, and gardens.",
             },
             {
-                question: "What amenities are available at Indiabulls Heights?",
-                answer: "Planned amenities span fitness, recreation, club & social spaces, children's areas, landscaping and security — see the Amenities section above.",
+                question: "Is investment in Sector 104 worth it?",
+                answer: "Yes, the area is booming with rapid urbanisation, development of social infrastructure, and enhanced connectivity.",
             },
             {
-                question: "Is Indiabulls Heights RERA registered?",
-                answer: "The RERA registration number will be published here once confirmed and verified.",
+                question: "When is possession expected?",
+                answer: "The details are yet to be confirmed from the property's end. However, it is expected somewhere around October 2030.",
             },
         ],
     },
