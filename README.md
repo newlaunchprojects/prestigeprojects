@@ -1,4 +1,4 @@
-# Indiabulls Projects Gurgaon
+# Indiabulls Projects
 
 A two-project launch microsite with a reusable architecture for future projects.
 Initial projects: **Indiabulls Estate & Club** and **Indiabulls Heights**.

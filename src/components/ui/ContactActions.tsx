@@ -30,7 +30,7 @@ export function ContactActions({
 
         open({
             source: "enquire_now",
-            projectName: projectName ?? "Indiabulls Projects Gurgaon",
+            projectName: projectName ?? "Indiabulls Projects",
         });
     };
 

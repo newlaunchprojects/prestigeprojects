@@ -9,25 +9,26 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
     metadataBase: new URL("https://indiabullsprojectsgurgaon.vercel.app"),
     title: {
-        default: "Indiabulls Projects Gurgaon | Estate & Club · Heights",
-        template: "%s | Indiabulls Projects Gurgaon",
+        default: "Indiabulls Projects | Estate & Club · Heights",
+        template: "%s | Indiabulls Projects",
     },
     description:
-        "Indiabulls Projects Gurgaon — explore Indiabulls Estate & Club and Indiabulls Heights, premium residential developments in Gurgaon. Configurations, amenities, floor plans and latest price.",
+        "Indiabulls Projects — explore Indiabulls Estate & Club and Indiabulls Heights, premium residential developments in Gurgaon. Configurations, amenities, floor plans and latest price.",
     keywords: [
-        "Indiabulls projects Gurgaon",
+        "Indiabulls Projects",
+        "Indiabulls Projects Gurgaon",
         "Indiabulls Gurgaon projects",
         "Indiabulls new projects Gurgaon",
         "Indiabulls residential projects Gurgaon",
     ],
     openGraph: {
-        title: "Indiabulls Projects Gurgaon",
+        title: "Indiabulls Projects",
         description:
             "Premium residential projects in Gurgaon — Indiabulls Estate & Club and Indiabulls Heights.",
         type: "website",
         locale: "en_IN",
         url: "https://indiabullsprojectsgurgaon.vercel.app",
-        siteName: "Indiabulls Projects Gurgaon",
+        siteName: "Indiabulls Projects",
         images: [
             {
                 url: "https://indiabullsprojectsgurgaon.vercel.app/og-image.webp",

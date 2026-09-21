@@ -35,7 +35,7 @@ export async function generateMetadata({
         description: `${project.name} in ${project.location} — configurations, amenities, floor plans, location and latest price. ${project.positioning}`,
         alternates: { canonical: `/projects/${project.slug}` },
         openGraph: {
-            title: `${project.name} | Indiabulls Projects Gurgaon`,
+            title: `${project.name} | Indiabulls Projects`,
             description: project.positioning,
             images: [project.openGraphImage || project.heroImage],
         },
