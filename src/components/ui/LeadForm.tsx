@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, Check } from "lucide-react";
 import { track } from "@/lib/analytics";
+import Link from "next/link";
 
 type LeadFormProps = {
     projectName: string;
@@ -196,12 +197,12 @@ export function LeadForm({
             <p className="pt-1 text-[11px] leading-5 text-ink-400">
                 By submitting, you agree to be contacted by phone, WhatsApp or
                 email about this project. See our{" "}
-                <a
+                <Link
                     href="/privacy"
                     className="text-ink-600 underline underline-offset-2 transition-colors hover:text-bronze-600"
                 >
                     Privacy Policy
-                </a>
+                </Link>
                 .
             </p>
 

@@ -11,6 +11,7 @@ import {
 import { createPortal } from "react-dom";
 import { ArrowRight, Check, X } from "lucide-react";
 import { track } from "@/lib/analytics";
+import Link from "next/link";
 
 type LeadFormRequest = {
     source: string;
@@ -590,7 +591,7 @@ export function LeadFormProvider({
                                                 contacted by phone, WhatsApp or
                                                 email about this project. See
                                                 our{" "}
-                                                <a
+                                                <Link
                                                     href="/privacy"
                                                     className="
                                                         text-ink-600
@@ -601,7 +602,7 @@ export function LeadFormProvider({
                                                     "
                                                 >
                                                     Privacy Policy
-                                                </a>
+                                                </Link>
                                                 .
                                             </p>
 
