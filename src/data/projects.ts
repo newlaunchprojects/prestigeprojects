@@ -270,7 +270,7 @@ export const projects: Project[] = [
             "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.8309394062608!2d76.99427899999999!3d28.4846376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d17b94520cdc3%3A0xcb07424a9845f4c7!2sOne%20Indiabulls!5e0!3m2!1sen!2sin!4v1788760942995!5m2!1sen!2sin",
         positioning:
             "Contemporary residences designed around comfort and modern living.",
-        startingPrice: "4.25 Cr*",
+        startingPrice: "₹1.95 Cr*",
         bookingAmount: "20%",
         shortDescription:
             "A high-rise residential development planned around efficient layouts, open amenity decks and skyline views.",
@@ -317,12 +317,12 @@ export const projects: Project[] = [
         ],
         configurations: [
             {
-                name: "2 BHK",
+                name: "2 BHK + Study",
                 size: "1,500 – 2,000 sq. ft.*",
                 priceLabel: "Get Latest Price",
             },
             {
-                name: "3 BHK",
+                name: "3 BHK + Utility",
                 size: "2,300 – 2,500 sq. ft.*",
                 priceLabel: "Get Latest Price",
             },
