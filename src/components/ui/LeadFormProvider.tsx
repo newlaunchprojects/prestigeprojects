@@ -30,6 +30,11 @@ type LeadFormProviderProps = {
 
 const LeadFormContext = createContext<LeadFormContextValue | null>(null);
 
+// Only the localStorage behavior has been changed.
+// The value is now a timestamp and expires after 24 hours.
+const LEAD_FORM_STORAGE_KEY = "lead-form-auto-opened";
+const LEAD_FORM_STORAGE_DURATION = 24 * 60 * 60 * 1000;
+
 export function useLeadForm() {
     const ctx = useContext(LeadFormContext);
 
@@ -65,7 +70,7 @@ export function LeadFormProvider({
      * Open form
      *
      * Any manual interaction with a CTA also marks the
-     * automatic popup as already handled.
+     * automatic popup as already handled for 24 hours.
      */
     const open = useCallback((req: LeadFormRequest) => {
         if (closeTimerRef.current) {
@@ -75,8 +80,9 @@ export function LeadFormProvider({
 
         // Prevent the automatic popup from appearing later
         // after the visitor has already interacted with the form.
+        // This timestamp expires after 24 hours.
         try {
-            localStorage.setItem("lead-form-auto-opened", "true");
+            localStorage.setItem(LEAD_FORM_STORAGE_KEY, Date.now().toString());
         } catch {
             // Ignore storage errors.
         }
@@ -116,7 +122,7 @@ export function LeadFormProvider({
     /*
      * Automatically open form after 5 seconds
      *
-     * Only happens once per browser.
+     * Only happens once every 24 hours per browser.
      */
     useEffect(() => {
         if (!mounted) return;
@@ -124,8 +130,21 @@ export function LeadFormProvider({
         let hasOpenedAutomatically = false;
 
         try {
-            hasOpenedAutomatically =
-                localStorage.getItem("lead-form-auto-opened") === "true";
+            const storedTimestamp = localStorage.getItem(LEAD_FORM_STORAGE_KEY);
+
+            if (storedTimestamp) {
+                const timestamp = Number(storedTimestamp);
+
+                if (
+                    Number.isFinite(timestamp) &&
+                    Date.now() - timestamp < LEAD_FORM_STORAGE_DURATION
+                ) {
+                    hasOpenedAutomatically = true;
+                } else {
+                    // Stored value has expired.
+                    localStorage.removeItem(LEAD_FORM_STORAGE_KEY);
+                }
+            }
         } catch {
             // If localStorage is unavailable, continue normally.
         }
@@ -139,7 +158,12 @@ export function LeadFormProvider({
             }
 
             try {
-                localStorage.setItem("lead-form-auto-opened", "true");
+                // Store the current timestamp.
+                // This timestamp expires after 24 hours.
+                localStorage.setItem(
+                    LEAD_FORM_STORAGE_KEY,
+                    Date.now().toString(),
+                );
             } catch {
                 // Ignore storage errors.
             }
@@ -616,6 +640,7 @@ export function LeadFormProvider({
                                                     {submitError}
                                                 </p>
                                             )}
+
                                             <button
                                                 type="submit"
                                                 disabled={isSubmitting}
