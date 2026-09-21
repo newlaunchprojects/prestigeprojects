@@ -593,6 +593,7 @@ export function LeadFormProvider({
                                                 our{" "}
                                                 <Link
                                                     href="/privacy"
+                                                    onClick={close}
                                                     className="
                                                         text-ink-600
                                                         underline
