@@ -20,7 +20,7 @@ export function ProjectSelector({ projects }: { projects: Project[] }) {
                     }}
                     className="mb-3 text-[10px] font-medium uppercase tracking-[0.25em] text-stone-50/60"
                 >
-                    Indiabulls · Gurgaon
+                    Indiabulls
                 </motion.p>
 
                 <motion.h1
