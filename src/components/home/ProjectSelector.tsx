@@ -11,7 +11,7 @@ export function ProjectSelector({ projects }: { projects: Project[] }) {
     return (
         <section className="flex flex-1 flex-col justify-center py-16 md:py-12">
             <div className="container-page mb-10 flex flex-col items-center text-center md:mb-12">
-                <motion.p
+                <motion.h1
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{
@@ -21,9 +21,9 @@ export function ProjectSelector({ projects }: { projects: Project[] }) {
                     className="mb-3 text-[10px] font-medium uppercase tracking-[0.25em] text-stone-50/60"
                 >
                     Indiabulls
-                </motion.p>
+                </motion.h1>
 
-                <motion.h1
+                <motion.p
                     initial={{ opacity: 0, y: 12 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{
@@ -37,7 +37,7 @@ export function ProjectSelector({ projects }: { projects: Project[] }) {
                     <span className="block text-stone-50/60">
                         One exceptional city.
                     </span>
-                </motion.h1>
+                </motion.p>
             </div>
 
             <div className="relative">

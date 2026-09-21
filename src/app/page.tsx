@@ -24,6 +24,7 @@ export default function HomePage() {
                         <Image
                             src="/indiabulls.svg"
                             alt="Indiabulls Logo"
+                            title="Indiabulls Logo"
                             width={150}
                             height={50}
                             priority

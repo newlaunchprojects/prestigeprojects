@@ -91,6 +91,7 @@ export function SiteHeader() {
                         <Image
                             src="/indiabulls.svg"
                             alt="Indiabulls"
+                            title="Indiabulls"
                             width={150}
                             height={50}
                             priority

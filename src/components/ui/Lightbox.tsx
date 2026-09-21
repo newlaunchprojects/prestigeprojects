@@ -112,6 +112,7 @@ export function Lightbox({
                 <Image
                     src={current.src}
                     alt={current.alt}
+                    title={current.alt}
                     fill
                     className="object-contain"
                     sizes="100vw"

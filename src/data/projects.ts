@@ -20,6 +20,9 @@ export type Project = {
     heroImage: string;
     cardImage: string;
     openGraphImage?: string;
+    metaTitle: string;
+    metaDescription: string;
+    metaKeywords: string[];
     logo?: string;
     status?: string;
     propertyType?: string;
@@ -47,7 +50,7 @@ export type Project = {
 export const projects: Project[] = [
     {
         slug: "indiabulls-estate-and-club",
-        name: "Indiabulls Estate & Club",
+        name: "Indiabulls Estate and Club",
         shortName: "Estate & Club",
         location: "Sector 104, Gurgaon",
         locationlink:
@@ -61,6 +64,27 @@ export const projects: Project[] = [
         heroImage: "/highlights/e3.png",
         cardImage: "/highlights/e3.png",
         openGraphImage: "/estate&clubOgimage.webp",
+        metaTitle:
+            "Indiabulls Estate & Club Sector 104 Gurgaon | Price, Brochure, Floor Plans & Amenities",
+        metaDescription:
+            "Explore Indiabulls Estate & Club in Sector 104, Gurgaon. Get the latest price list, brochure, floor plans, world-class amenities, specifications, location advantages, and booking details for premium residences.",
+        metaKeywords: [
+            "Indiabulls Estate and Club",
+            "Indiabulls Estate and Club Sector 104 Gurgaon",
+            "Indiabulls Estate and Club Gurgaon",
+            "Indiabulls Estate and Club brochure",
+            "Indiabulls Estate and Club price",
+            "Indiabulls Estate and Club floor plan",
+            "Indiabulls Estate and Club amenities",
+            "Indiabulls Estate and Club price list",
+            "luxury apartments Sector 104 Gurgaon",
+            "premium apartments Gurgaon",
+            "residential project Sector 104 Gurgaon",
+            "Indiabulls homes Gurgaon",
+            "Dwarka Expressway apartments",
+            "new launch Gurgaon",
+            "luxury flats Gurgaon",
+        ],
         status: "Under Construction",
         propertyType: "Premium Residential Apartments",
         reraNumber: "RC/REP/HARERA/GGM/897/629/2024/124",
@@ -226,9 +250,8 @@ export const projects: Project[] = [
                     "The Indiabulls Estate and Club Brochure justifies the serenity surrounding this township. It also comprise the overview of walking trails, landscaped gardens, and sitting spaces, specifically for the elderly residents. Beyond the facilities, this township is highly secure, with an advanced security system, a gated community, trained professionals, and round-the-clock concierge services. Additionally, there is parking space and uninterrupted water and power supply. The potential buyers can explore more about the essentials on the brochure available.",
             },
             {
-                title: "Sector 104 positioning",
-                description:
-                    "Positioned right in the heart of the Dwarka Expressway, Indiabulls Estate and Club Sector 104 Gurgaon fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the Indiabulls Estate and Club, Sector 104 Gurgaon. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.",
+                title: "Indiabulls Estate and Club Sector 104 positioning",
+                description: `Positioned right in the heart of the Dwarka Expressway, Indiabulls Estate and Club Sector 104 Gurgaon fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the Indiabulls Estate and Club, Sector 104 Gurgaon. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.`,
             },
         ],
         faqs: [
@@ -277,6 +300,26 @@ export const projects: Project[] = [
         heroImage: "/heroImage/height.png",
         cardImage: "/heroImage/height.png",
         openGraphImage: "/heightOgimage.webp",
+        metaTitle:
+            "Indiabulls Heights Sector 104 Dwarka Expressway | Price, Floor Plan & Brochure",
+        metaDescription:
+            "Discover Indiabulls Heights in Sector 104, Dwarka Expressway, Gurgaon. Check the latest price, floor plans, brochure, location map, amenities, specifications, and book your premium home today.",
+        metaKeywords: [
+            "Indiabulls Heights",
+            "Indiabulls Heights Sector 104 Dwarka Expressway",
+            "Indiabulls Heights Dwarka Expressway",
+            "Indiabulls Heights Price",
+            "Indiabulls Heights Location",
+            "Indiabulls Heights Floor Plan",
+            "Indiabulls Heights Brochure",
+            "Indiabulls Heights Gurgaon",
+            "Indiabulls Heights Price List",
+            "luxury apartments Sector 104 Gurgaon",
+            "premium apartments Dwarka Expressway",
+            "residential projects Gurgaon",
+            "new launch Gurgaon, luxury flats Gurgaon",
+            "Indiabulls residential project",
+        ],
         status: "Under Construction",
         propertyType: "Premium Residential Apartments",
         reraNumber: "RC/REP/HARERA/GGM/160(A) of 2017/7(3)/89/2025/31",

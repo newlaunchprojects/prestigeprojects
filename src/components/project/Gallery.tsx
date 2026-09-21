@@ -31,6 +31,7 @@ export function Gallery({ project }: { project: Project }) {
                         <Image
                             src={image.src}
                             alt={image.alt}
+                            title={image.alt}
                             fill
                             sizes="(max-width: 768px) 70vw, 25vw"
                             className="object-cover transition-transform duration-300 group-hover:scale-105"

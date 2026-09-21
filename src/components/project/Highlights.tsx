@@ -22,6 +22,7 @@ export function Highlights({ project }: { project: Project }) {
                                 <Image
                                     src={highlight.image}
                                     alt={highlight.title}
+                                    title={highlight.title}
                                     fill
                                     sizes="(max-width: 768px) 100vw, 50vw"
                                     className="object-cover"

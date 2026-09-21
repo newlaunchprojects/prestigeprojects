@@ -34,6 +34,7 @@ export function Amenities({ project }: { project: Project }) {
                                             <Image
                                                 src={item.image}
                                                 alt="amenities"
+                                                title="amenities"
                                                 fill
                                                 sizes="(max-width: 768px) 45vw, 240px"
                                                 className="object-cover transition-transform duration-300 group-hover:scale-105"

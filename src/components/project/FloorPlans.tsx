@@ -41,6 +41,7 @@ export function FloorPlans({ project }: { project: Project }) {
                                 <Image
                                     src={card.image}
                                     alt={`${project.name} — ${card.name}`}
+                                    title={`${project.name} — ${card.name}`}
                                     fill
                                     sizes="(max-width: 768px) 75vw, 33vw"
                                     className="object-cover transition-transform duration-300 group-hover:scale-105"

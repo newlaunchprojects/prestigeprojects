@@ -6,6 +6,7 @@ export function HeroBackground({ src, alt }: { src: string; alt: string }) {
             <Image
                 src={src}
                 alt={alt}
+                title={alt}
                 fill
                 priority
                 sizes="100vw"

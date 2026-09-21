@@ -14,6 +14,7 @@ export function ProjectHero({ project }: { project: Project }) {
             <Image
                 src={project.heroImage}
                 alt={project.name}
+                title={project.name}
                 fill
                 priority
                 sizes="100vw"
