@@ -65,9 +65,9 @@ export const projects: Project[] = [
         cardImage: "/highlights/e3.png",
         openGraphImage: "/estate&clubOgimage.webp",
         metaTitle:
-            "Indiabulls Estate & Club Sector 104 Gurgaon | Price, Brochure, Floor Plans & Amenities",
+            "Indiabulls Estate and Club Sector 104 Gurgaon | Price, Brochure, Floor Plans & Amenities",
         metaDescription:
-            "Explore Indiabulls Estate & Club in Sector 104, Gurgaon. Get the latest price list, brochure, floor plans, world-class amenities, specifications, location advantages, and booking details for premium residences.",
+            "Explore Indiabulls Estate and Club in Sector 104, Gurgaon. Get the latest price list, brochure, floor plans, world-class amenities, specifications, location advantages, and booking details for premium residences.",
         metaKeywords: [
             "Indiabulls Estate and Club",
             "Indiabulls Estate and Club Sector 104 Gurgaon",
