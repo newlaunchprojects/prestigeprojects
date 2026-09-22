@@ -98,12 +98,12 @@ export const projects: Project[] = [
         ],
         overview: [
             "Taking today’s modernization into consideration, the residential lifestyle has shifted more towards comfort and luxury blended together.",
-            "The Indiabulls Estate and Club Sector 104 Gurgaon is one such property that ticks the list of the potential buyers and investors.",
+            "The **Indiabulls Estate and Club Sector 104 Gurgaon** is one such property that ticks the list of the potential buyers and investors.",
             "The property is situated in an upscale neighborhood that brings convenience and lifestyle within reach for the residents.",
             "The apartments within the project have 3 BHK and 4 BHK options with special layouts and are packed with natural light flowing through every corner of the house.",
             "Also, the greenery around the township opens the doorway to freshness and connectivity to nature.",
-            "The apartments at Indiabulls Estate and Club Sector 104 Gurgaon are embedded with smart home features accompanied by prime fittings and fixtures from reputed brands within bedrooms, living room, kitchen, and bathrooms.",
-            "The Indiabulls Estate and Club Sector Price is now available for potential buyers and investors to enquire about.",
+            "The apartments at **Indiabulls Estate and Club Sector 104 Gurgaon** are embedded with smart home features accompanied by prime fittings and fixtures from reputed brands within bedrooms, living room, kitchen, and bathrooms.",
+            "The **Indiabulls Estate and Club Sector Price** is now available for potential buyers and investors to enquire about.",
         ],
         highlights: [
             {
@@ -242,16 +242,16 @@ export const projects: Project[] = [
             {
                 title: "Indiabulls Estate and Club Amenities",
                 description:
-                    "Coming to the facilities, the Indiabulls Estate and Club Amenities are curated in a way that they not only offer a luxurious lifestyle, but also ensure that its residents are offered all conveniences at their doorstep. The residents are offered luxurious swimming pools situated both indoors and outdoors. On the other hand, there are wellness facilities like a spa and sauna to let residents relax. The Indiabulls Estate and Club Amenities also offer an amusement park for kids and also, and adults and elders can access a multi-sports arena with the availability of tennis, badminton, pickleball, and more. The fitness centre is developed with a fully equipped gymnasium and has a dedicated space for yoga and meditation.",
+                    "Coming to the facilities, the **Indiabulls Estate and Club Amenities** are curated in a way that they not only offer a luxurious lifestyle, but also ensure that its residents are offered all conveniences at their doorstep. The residents are offered luxurious swimming pools situated both indoors and outdoors. On the other hand, there are wellness facilities like a spa and sauna to let residents relax. The **Indiabulls Estate and Club Amenities** also offer an amusement park for kids and also, and adults and elders can access a multi-sports arena with the availability of tennis, badminton, pickleball, and more. The fitness centre is developed with a fully equipped gymnasium and has a dedicated space for yoga and meditation.",
             },
             {
                 title: "Indiabulls Estate and Club Brochure",
                 description:
-                    "The Indiabulls Estate and Club Brochure justifies the serenity surrounding this township. It also comprise the overview of walking trails, landscaped gardens, and sitting spaces, specifically for the elderly residents. Beyond the facilities, this township is highly secure, with an advanced security system, a gated community, trained professionals, and round-the-clock concierge services. Additionally, there is parking space and uninterrupted water and power supply. The potential buyers can explore more about the essentials on the brochure available.",
+                    "The **Indiabulls Estate and Club Brochure** justifies the serenity surrounding this township. It also comprise the overview of walking trails, landscaped gardens, and sitting spaces, specifically for the elderly residents. Beyond the facilities, this township is highly secure, with an advanced security system, a gated community, trained professionals, and round-the-clock concierge services. Additionally, there is parking space and uninterrupted water and power supply. The potential buyers can explore more about the essentials on the brochure available.",
             },
             {
                 title: "Indiabulls Estate and Club Sector 104 positioning",
-                description: `Positioned right in the heart of the Dwarka Expressway, Indiabulls Estate and Club Sector 104 Gurgaon fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the Indiabulls Estate and Club, Sector 104 Gurgaon. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.`,
+                description: `Positioned right in the heart of the Dwarka Expressway, **Indiabulls Estate and Club Sector 104 Gurgaon** fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the **Indiabulls Estate and Club, Sector 104 Gurgaon**. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.`,
             },
         ],
         faqs: [
@@ -332,9 +332,9 @@ export const projects: Project[] = [
             { label: "Total Units", value: "48" },
         ],
         overview: [
-            "IIndiabulls Real Estate is one of the renowned developers and is now ready with its new residential project, which is located in the prime location of Sector 104, Gurugram.",
+            "Indiabulls Real Estate is one of the renowned developers and is now ready with its new residential project, which is located in the prime location of **Sector 104, Gurugram**.",
             " To begin the Indiabulls Heights Overview, this property comes with an elegant design and the finest infrastructure in the area.",
-            "This residential property comprises comfortable and luxurious 2 BHK and 3 BHK apartments, which have their private balconies and modern interiors.",
+            "This residential property comprises comfortable and luxurious **2 BHK and 3 BHK apartments**, which have their private balconies and modern interiors.",
             "Furthermore, this property has a lifestyle-focused environment, wherein the residents can enjoy top-class facilities and seamless connectivity.",
             "The apartments, too, are spacious and hold a strong space to accommodate any size of family.",
         ],
@@ -475,22 +475,22 @@ export const projects: Project[] = [
             {
                 title: "Everything About Indiabulls Heights Sector 104",
                 description:
-                    "From well-constructed architecture to the finest interiors, this property offers a premium range of apartments. The homes in the property come in 2 BHK and 3 BHK configurations. Each apartment has spacious bedrooms and living areas, accompanied by a modular kitchen. Likewise, the bathrooms have fittings and fixtures from reputed brands. The development of the project has been done with Vastu compliance. Similarly, this residential project is earthquake-resistant, wherein the walls stand strong on the RCC structure. The interiors of the property have been curated, keeping the needs of the lifestyle in consideration. The Indiabulls Heights Sector 104 Gurgaon, thus, is a perfect combination of luxury, comfort, and modern life amenities.",
+                    "From well-constructed architecture to the finest interiors, this property offers a premium range of apartments. The homes in the property come in 2 BHK and 3 BHK configurations. Each apartment has spacious bedrooms and living areas, accompanied by a modular kitchen. Likewise, the bathrooms have fittings and fixtures from reputed brands. The development of the project has been done with Vastu compliance. Similarly, this residential project is earthquake-resistant, wherein the walls stand strong on the RCC structure. The interiors of the property have been curated, keeping the needs of the lifestyle in consideration. The **Indiabulls Heights Sector 104 Gurgaon**, thus, is a perfect combination of luxury, comfort, and modern life amenities.",
             },
             {
                 title: "The Pricing and More",
                 description:
-                    "When it comes to understanding the Indiabulls Heights price for the apartments, potential buyers and investors will make their selection based on multiple factors. The current rates of the Indiabulls Heights vary depending on the apartment size, floor, and configurations. As the property prices keep on fluctuating over time, the prices for these apartments too come along with flexible rates. However, buyers are eligible to avail the prime benefits of early investment, flexible payment plans, ease of choosing the preferred floors and configurations, and making the most of final pricing. Since the demand for property is already at a peak, investing early will result in a beneficial deal.",
+                    "When it comes to understanding the **Indiabulls Heights price** for the apartments, potential buyers and investors will make their selection based on multiple factors. The current rates of the Indiabulls Heights vary depending on the apartment size, floor, and configurations. As the property prices keep on fluctuating over time, the prices for these apartments too come along with flexible rates. However, buyers are eligible to avail the prime benefits of early investment, flexible payment plans, ease of choosing the preferred floors and configurations, and making the most of final pricing. Since the demand for property is already at a peak, investing early will result in a beneficial deal.",
             },
             {
                 title: "Understanding the Brochure",
                 description:
-                    "In order to get the best of the details, the Indiabulls Heights brochure offers a detailed overview of the project. The brochure of this residential property consists of details surrounding floor plans, amenities, overall development, and specifications. The official website of Indiabulls Heights offers the option for potential buyers and investors to download the brochure. Also, buyers can compare configurations and lifestyle facilities. The brochure also offers details on the location and its seamless connectivity with the city’s hotspots, reputed schools, top hospitals, and employment corridors at Sector 104.",
+                    "In order to get the best of the details, the **Indiabulls Heights brochure** offers a detailed overview of the project. The brochure of this residential property consists of details surrounding floor plans, amenities, overall development, and specifications. The official website of Indiabulls Heights offers the option for potential buyers and investors to download the brochure. Also, buyers can compare configurations and lifestyle facilities. The brochure also offers details on the location and its seamless connectivity with the city’s hotspots, reputed schools, top hospitals, and employment corridors at Sector 104.",
             },
             {
                 title: "Exploring Amenities of the Project",
                 description:
-                    "When it comes to the Indiabulls Heights amenities, this property is packed with lifestyle facilities that make the residential experience for residents worthwhile. This property offers a range of facilities that include wellness, leisure, and recreation. The residents are offered a swimming pool, on-site restaurant, and gymnasium, while the kids get access to a multi-sports arena equipped with basketball, a play area, cricket, and tennis, etc. The property also has green spaces that enrich the lifestyle with fresh air and peace of mind. Similarly, the security standards are top-notch with a 5-tier security system. The water and power supply are uninterrupted, and car parking is also available.",
+                    "When it comes to the **Indiabulls Heights amenities**, this property is packed with lifestyle facilities that make the residential experience for residents worthwhile. This property offers a range of facilities that include wellness, leisure, and recreation. The residents are offered a swimming pool, on-site restaurant, and gymnasium, while the kids get access to a multi-sports arena equipped with basketball, a play area, cricket, and tennis, etc. The property also has green spaces that enrich the lifestyle with fresh air and peace of mind. Similarly, the security standards are top-notch with a 5-tier security system. The water and power supply are uninterrupted, and car parking is also available.",
             },
         ],
         faqs: [

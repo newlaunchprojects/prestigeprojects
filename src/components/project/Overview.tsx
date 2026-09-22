@@ -1,6 +1,22 @@
 import Image from "next/image";
 import type { Project } from "@/data/projects";
 
+function renderBoldText(text: string) {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+
+    return parts.map((part, index) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+            return (
+                <strong key={index} className="font-semibold text-ink-900">
+                    {part.slice(2, -2)}
+                </strong>
+            );
+        }
+
+        return <span key={index}>{part}</span>;
+    });
+}
+
 export function Overview({ project }: { project: Project }) {
     return (
         <section
@@ -11,17 +27,19 @@ export function Overview({ project }: { project: Project }) {
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                     {project.name} Project Overview
                 </h2>
+
                 <div className="mt-6 space-y-5">
                     {project.overview.map((para, i) => (
                         <p
                             key={i}
                             className="max-w-[65ch] leading-relaxed text-ink-700"
                         >
-                            {para}
+                            {renderBoldText(para)}
                         </p>
                     ))}
                 </div>
             </div>
+
             <div className="relative aspect-4/5 w-full overflow-hidden rounded-[3px]">
                 <Image
                     src={project.heroImage}

@@ -1,5 +1,21 @@
 import type { Project } from "@/data/projects";
 
+function renderBoldText(text: string) {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+
+    return parts.map((part, index) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+            return (
+                <strong key={index} className="font-semibold text-ink-900">
+                    {part.slice(2, -2)}
+                </strong>
+            );
+        }
+
+        return <span key={index}>{part}</span>;
+    });
+}
+
 export function WhyProject({ project }: { project: Project }) {
     return (
         <section
@@ -9,6 +25,7 @@ export function WhyProject({ project }: { project: Project }) {
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                 Why {project.name}
             </h2>
+
             <div className="mt-10 grid gap-x-10 gap-y-8 sm:grid-cols-1">
                 {project.whyThisProject.map((reason) => (
                     <div
@@ -18,8 +35,9 @@ export function WhyProject({ project }: { project: Project }) {
                         <h3 className="font-medium text-ink-900">
                             {reason.title}
                         </h3>
+
                         <p className="mt-2 max-w-auto text-justify text-sm leading-relaxed text-ink-500">
-                            {reason.description}
+                            {renderBoldText(reason.description)}
                         </p>
                     </div>
                 ))}
