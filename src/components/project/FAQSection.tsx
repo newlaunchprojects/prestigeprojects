@@ -12,6 +12,9 @@ export function FAQSection({ project }: { project: Project }) {
                 <div className="grid gap-12 lg:grid-cols-[1fr_420px]">
                     {/* FAQ */}
                     <div>
+                        <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
+                            FAQ&apos;s
+                        </p>
                         <h2 className="mb-10 font-display text-3xl text-ink-900 md:text-4xl">
                             {project.name} FAQ&apos;s
                         </h2>

@@ -24,6 +24,9 @@ export function Overview({ project }: { project: Project }) {
             className="container-page grid gap-10 py-10 lg:grid-cols-2 lg:gap-16 lg:py-18"
         >
             <div>
+                <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
+                    Overview
+                </p>
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                     {project.name} Project Overview
                 </h2>

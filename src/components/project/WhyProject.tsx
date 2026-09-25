@@ -22,6 +22,9 @@ export function WhyProject({ project }: { project: Project }) {
             id="why-this-project"
             className="container-page py-10 md:py-18"
         >
+            <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
+                Why This Project
+            </p>
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                 Why {project.name}
             </h2>

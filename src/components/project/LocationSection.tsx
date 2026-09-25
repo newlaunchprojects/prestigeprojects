@@ -4,6 +4,9 @@ export function LocationSection({ project }: { project: Project }) {
     // const mapQuery = encodeURIComponent(`${project.name}, ${project.location}`);
     return (
         <section id="location" className="container-page py-10 md:py-18">
+            <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
+                Location &amp; Connectivity
+            </p>
             <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                 {project.name} Location &amp; Connectivity
             </h2>
