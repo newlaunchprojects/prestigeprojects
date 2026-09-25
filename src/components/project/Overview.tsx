@@ -21,7 +21,7 @@ export function Overview({ project }: { project: Project }) {
     return (
         <section
             id="overview"
-            className="container-page grid gap-10 py-10 md:grid-cols-2 md:gap-16 md:py-18"
+            className="container-page grid gap-10 py-10 lg:grid-cols-2 lg:gap-16 lg:py-18"
         >
             <div>
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
@@ -40,7 +40,7 @@ export function Overview({ project }: { project: Project }) {
                 </div>
             </div>
 
-            <div className="relative aspect-4/5 w-full overflow-hidden rounded-[3px]">
+            <div className="relative lg:aspect-auto aspect-4/5 w-full overflow-hidden rounded-[3px]">
                 <Image
                     src={project.heroImage}
                     alt={`${project.name} — architectural detail`}
