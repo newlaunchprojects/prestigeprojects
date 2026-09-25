@@ -19,7 +19,7 @@ import { FinalCTA } from "@/components/project/FinalCTA";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { MobileStickyBar } from "@/components/layout/MobileStickyBar";
-const SITE_URL = "https://Prestige-projects.com";
+const SITE_URL = "https://prestigeprojects-wheat.vercel.app";
 
 const SITE_NAME = "Prestige Projects";
 export function generateStaticParams() {
