@@ -88,8 +88,8 @@ export const projects: Project[] = [
         bookingAmount: "20%",
         shortDescription:
             "A low-density residential address built around a private clubhouse, layered landscaping and generously proportioned homes.",
-        heroImage: "/heroimage/hero1.webp",
-        cardImage: "/heroimage/hero1.webp",
+        heroImage: "/heroImage/hero92.avif",
+        cardImage: "/heroImage/hero92.avif",
         openGraphImage: "/sector92Ogimage.webp",
         metaTitle:
             "Prestige Sector 92 Gurgaon | Price, Brochure, Floor Plans & Amenities",
@@ -288,7 +288,7 @@ export const projects: Project[] = [
 
         gallery: [
             {
-                src: "/heroimage/hero1.webp",
+                src: "/heroImage/hero92.avif",
                 alt: "Prestige Sector 92 Gurgaon — exterior view",
             },
             {
