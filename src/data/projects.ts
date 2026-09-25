@@ -142,13 +142,11 @@ export const projects: Project[] = [
         ],
 
         overview: [
-            "Taking today’s modernization into consideration, the residential lifestyle has shifted more towards comfort and luxury blended together.",
-            "The **Prestige Sector 92 Gurgaon Sector 104 Gurgaon** is one such property that ticks the list of the potential buyers and investors.",
-            "The property is situated in an upscale neighborhood that brings convenience and lifestyle within reach for the residents.",
-            "The apartments within the project have 3 BHK and 4 BHK options with special layouts and are packed with natural light flowing through every corner of the house.",
-            "Also, the greenery around the township opens the doorway to freshness and connectivity to nature.",
-            "The apartments at **Prestige Sector 92 Gurgaon Sector 104 Gurgaon** are embedded with smart home features accompanied by prime fittings and fixtures from reputed brands within bedrooms, living room, kitchen, and bathrooms.",
-            "The **Prestige Sector 92 Gurgaon Sector Price** is now available for potential buyers and investors to enquire about.",
+            "One of the most renowned real estate developers, Prestige Group, has finally landed in Gurgaon with its upcoming luxurious residential project, **Prestige Sector 92**.",
+            "This is one of the most anticipated developments that has grabbed the attention of both homebuyers and investors.",
+            "Coming along with classy infrastructure and elegant apartments, this residential property is set to transform the area with a luxurious presence.",
+            "Furthermore, these residences are crafted with lifestyle amenities, open spaces, and timeless connectivity that embrace the lifestyle of residents.",
+            "This article will take you through the essentials of **Prestige Sector 92**, along with its floor plan, pricing, amenities, and more.",
         ],
 
         highlights: [
@@ -334,48 +332,52 @@ export const projects: Project[] = [
 
         whyThisProject: [
             {
-                title: "Prestige Sector 92 Gurgaon Amenities",
+                title: "About Prestige Sector 92 Gurgaon:",
                 description:
-                    "Coming to the facilities, the **Prestige Sector 92 Gurgaon Amenities** are curated in a way that they not only offer a luxurious lifestyle, but also ensure that its residents are offered all conveniences at their doorstep. The residents are offered luxurious swimming pools situated both indoors and outdoors. On the other hand, there are wellness facilities like a spa and sauna to let residents relax. The **Prestige Sector 92 Gurgaon Amenities** also offer an amusement park for kids and also, and adults and elders can access a multi-sports arena with the availability of tennis, badminton, pickleball, and more. The fitness centre is developed with a fully equipped gymnasium and has a dedicated space for yoga and meditation.",
+                    "Sector 92 is a fast-growing area of Gurgaon, and this upcoming residential project in the same area marks its way to the growth of real estate. Surrounded by outstanding social infrastructure and fosters connectivity with Dwarka Expressway and other major roads of the city. **Prestige Sector 92 Gurgaon** serves as the ultimate future destination for homebuyers seeking luxury. Likewise, the property guarantees a pure blend of comfort with premium homes. This project, in turn, introduces planned residential apartments, ideal for homebuyers looking for property in a well-connected Gurgaon.",
             },
             {
-                title: "Prestige Sector 92 Gurgaon Brochure",
+                title: "Prestige Sector 92 Pricing and Payment Plan",
                 description:
-                    "The **Prestige Sector 92 Gurgaon Brochure** justifies the serenity surrounding this township. It also comprise the overview of walking trails, landscaped gardens, and sitting spaces, specifically for the elderly residents. Beyond the facilities, this township is highly secure, with an advanced security system, a gated community, trained professionals, and round-the-clock concierge services. Additionally, there is parking space and uninterrupted water and power supply. The potential buyers can explore more about the essentials on the brochure available.",
+                    "For the seasoned investors and homebuyers, the **Prestige Sector 92 price** will be available on demand. However, as the project falls under the luxurious category, the prices are expected to begin on the higher side. The prices will differ on the basis of configurations, floor-rise, maintenance costs, and taxes. Also, the buyers should verify other hidden charges from the builders before making the final call. As this residential property is currently under construction, the buyers and investors can avail pre-launch offers to enjoy a flexible payment plan and the opportunity to choose the best floors at a reasonably lower rate, compared to the ones announced post-launch.",
             },
             {
-                title: "Prestige Sector 92 Gurgaon Sector 104 positioning",
-                description: `Positioned right in the heart of the Dwarka Expressway, **Prestige Sector 92 Gurgaon Sector 104 Gurgaon** fosters enhanced connectivity and conveniences for residents. Its proximity to the reputed schools and hospitals makes it stand out within the community. Furthermore, professionals benefit the most as this township is close to Cyber City, Aerocity, and similar employment corridors. The families also get direct access to the city’s hotspots like prime shopping centres, Dwarka Golf Course, Yashobhoomi, and more. Lastly, the IGI Airport is also 15 minutes’ drive away from the **Prestige Sector 92 Gurgaon, Sector 104 Gurgaon**. Indeed, this property is definitely worth investing in and offers long-term appreciation rate.`,
+                title: "Configurations and Floor Plan:",
+                description: `The **Prestige Sector 92 floor plan** is expected to introduce apartments in three configurations, including 2 BHK, 3 BHK, and 4 BHK. This residential project is being built on a large site and is expected to offer premium apartments that have ample space and well-crafted facilities to fit families of different sizes. Likewise, the bedrooms, living rooms, bathrooms, and kitchen will be equipped with modern interiors and fittings and fixtures. The balconies, on the other hand, will come with ample space and foster ventilation via windows. Each home will be Vastu-compliant and secured from natural disasters with an earthquake-resistant structure.`,
+            },
+            {
+                title: "Lifestyle, Leisure, Wellness - Facilities at Prestige",
+                description: `When it comes to exploring the facilities, the **Prestige Sector 92 Amenities** certainly elevate the residential lifestyle. The property will offer premium lifestyle amenities including indoor and outdoor sports, a swimming pool, and a wellness and fitness centre. Accompanied by on-site cafes, there are a spa and sauna too, for residents to relish their experience. Other major utilities include power and water supply, lifts, and a rainwater harvesting system. Also, the security of the property is monitored under a multi-tier security system.`,
             },
         ],
 
         faqs: [
             {
-                question: "Where is Prestige Sector 92 Gurgaon located?",
-                answer: "This township is located at Sector 104, Dwarka Expressway, Gurugram.",
-            },
-            {
-                question: "What are the amenities available at the property?",
-                answer: "The Prestige Sector 92 Gurgaon amenities include sports, indoor and outdoor pools, cafe, fitness centre, and spa facilities.",
+                question: "Where is Prestige Sector 92 Gurgaon Located?",
+                answer: "The address of the property is Prestige, IMT Manesar, 125 A, Sector 92, Gurgaon, Haryana (122505)",
             },
             {
                 question:
-                    " What configurations are available at Prestige Sector 92 Gurgaon to choose from?",
-                answer: "This project offers spacious 3 BHK and 4 BHK apartments.",
+                    "What are the configurations offered by Prestige Sector 92 Gurgaon?",
+                answer: "This property will offer 2 BHK, 3 BHK, and 4 BHK apartments.",
             },
             {
                 question:
-                    "How is the project connected with other parts of the city?",
-                answer: "The Prestige Sector 92 Gurgaon is connected via major highways and Dwarka Expressway.",
+                    "What are the facilities expected at Prestige Sector 92?",
+                answer: "The residents will be offered amenities like a swimming pool, sports arena, fitness centre, gardens, and clubhouse, etc.",
             },
             {
                 question: "Is Prestige Sector 92 Gurgaon worth investment?",
-                answer: "Yes, it is. This project is close to IGI Airport and is well-connected with the employment corridors of the city.",
+                answer: "Yes, definitely. Sector 92 is a top-growing area of the city, which offers a higher rental yield and appreciation rates for homebuyers and investors.",
             },
             {
                 question:
-                    "What makes Prestige Sector 92 Gurgaon Sector 104 Gurgaon different from other projects?",
-                answer: "This township is covered with large green spaces and has a vast clubhouse, along with resort-style facilities.",
+                    "What are the prices of apartments at Prestige Sector 92?",
+                answer: "The prices can be obtained by contacting the developer’s desk.",
+            },
+            {
+                question: "Are schools and hospitals near Prestige Sector 92?",
+                answer: "Yes, city’s reputed schools and healthcare facilities are in a close proximity to the property.",
             },
         ],
     },
