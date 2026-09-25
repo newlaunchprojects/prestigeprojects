@@ -11,7 +11,7 @@ import { projects } from "@/data/projects";
 export default function HomePage() {
     return (
         <div className="relative flex min-h-screen flex-col overflow-hidden">
-            <HeroBackground src="/main.webp" alt="Gurgaon skyline at dusk" />
+            <HeroBackground src="/main.avif" alt="Gurgaon skyline at dusk" />
 
             <div className="relative z-10 flex flex-1 flex-col">
                 {/* Header */}
@@ -19,16 +19,16 @@ export default function HomePage() {
                     <Link
                         href="/"
                         className="shrink-0"
-                        aria-label="Indiabulls Projects"
+                        aria-label="Prestige Projects"
                     >
                         <Image
-                            src="/indiabulls.svg"
-                            alt="Indiabulls Logo"
-                            title="Indiabulls Logo"
+                            src="/Prestige.svg"
+                            alt="Prestige Logo"
+                            title="Prestige Logo"
                             width={150}
                             height={50}
                             priority
-                            className="h-auto w-30 md:w-37.5"
+                            className="h-25 w-30 md:w-37.5"
                         />
                     </Link>
 

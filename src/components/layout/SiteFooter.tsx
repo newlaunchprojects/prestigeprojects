@@ -15,19 +15,13 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
             <div className="container-page flex flex-col gap-6 py-8 text-sm md:flex-row md:items-center md:justify-between">
                 <div className="flex flex-col gap-1">
                     <Image
-                        src="/indiabulls.svg"
-                        alt="Indiabulls Logo"
-                        title="Indiabulls Logo"
+                        src="/Prestige.svg"
+                        alt="Prestige Logo"
+                        title="Prestige Logo"
                         width={150}
                         height={50}
+                        className="h-20 w-26.25 md:w-31.25"
                     />
-                    <span
-                        className={
-                            minimal ? "text-stone-50/70" : "text-ink-500"
-                        }
-                    >
-                        {projects.map((p) => p.shortName).join(" · ")}
-                    </span>
                 </div>
 
                 <nav
@@ -65,7 +59,7 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
                 }
             >
                 Disclaimer : All information on this website is for general
-                purposes only; while Indiabulls for accuracy, we make no
+                purposes only; while Prestige for accuracy, we make no
                 guarantees on completeness or reliability, and any reliance is
                 at your own risk project details, approvals, and specifications
                 may change per regulatory norms and are binding only as stated

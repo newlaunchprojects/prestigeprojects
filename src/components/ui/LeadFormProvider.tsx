@@ -47,7 +47,7 @@ export function useLeadForm() {
 
 export function LeadFormProvider({
     children,
-    autoOpenProjectName = "Indiabulls Projects",
+    autoOpenProjectName = "Prestige Projects",
 }: LeadFormProviderProps) {
     const [request, setRequest] = useState<LeadFormRequest | null>(null);
     const [isClosing, setIsClosing] = useState(false);
@@ -374,7 +374,7 @@ export function LeadFormProvider({
                                             {status !== "submitted" && (
                                                 <p className="mt-1.5 text-sm text-ink-500">
                                                     {request.projectName ??
-                                                        "Indiabulls Projects"}
+                                                        "Prestige Projects"}
 
                                                     {request.configName
                                                         ? ` · ${request.configName}`

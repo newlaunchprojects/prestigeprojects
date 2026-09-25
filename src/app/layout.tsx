@@ -8,65 +8,31 @@ import "./globals.css";
 
 import { LeadFormProvider } from "@/components/ui/LeadFormProvider";
 import { Analytics } from "@vercel/analytics/next";
+const SITE_URL = "https://Prestige-projects.com";
 
-/* -------------------------------------------------------------------------- */
-/* SITE CONFIGURATION                                                         */
-/* -------------------------------------------------------------------------- */
-
-const SITE_URL =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://indiabulls-projects.com";
-
-const SITE_NAME = "Indiabulls Projects";
+const SITE_NAME = "Prestige Projects";
 
 const SITE_DESCRIPTION =
-    "Explore Indiabulls residential projects in Gurgaon, including Indiabulls Estate & Club and Indiabulls Heights. View project details, pricing, floor plans, amenities, location and more.";
-
-/* -------------------------------------------------------------------------- */
-/* GLOBAL METADATA                                                            */
-/* -------------------------------------------------------------------------- */
+    "Explore Prestige residential projects in Gurgaon, including Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon. View project details, pricing, floor plans, amenities, location and more.";
 
 export const metadata: Metadata = {
-    /* ---------------------------------------------------------------------- */
-    /* BASE URL                                                               */
-    /* ---------------------------------------------------------------------- */
-
     metadataBase: new URL(SITE_URL),
-
-    /* ---------------------------------------------------------------------- */
-    /* TITLE                                                                  */
-    /* ---------------------------------------------------------------------- */
-
-    title: "Indiabulls Projects | Premium Residential Projects in Gurgaon",
-
-    /* ---------------------------------------------------------------------- */
-    /* DESCRIPTION                                                            */
-    /* ---------------------------------------------------------------------- */
-
+    title: "Prestige Projects | Premium Residential Projects in Gurgaon",
     description: SITE_DESCRIPTION,
-
-    /* ---------------------------------------------------------------------- */
-    /* KEYWORDS                                                               */
-    /* ---------------------------------------------------------------------- */
-
     keywords: [
-        "Indiabulls Projects",
-        "Indiabulls Projects Gurgaon",
-        "Indiabulls Gurgaon Projects",
-        "Indiabulls residential projects Gurgaon",
-        "Indiabulls new projects Gurgaon",
-        "Indiabulls Estate and Club",
-        "Indiabulls Estate & Club Gurgaon",
-        "Indiabulls Heights Gurgaon",
-        "Indiabulls property Gurgaon",
-        "Indiabulls flats Gurgaon",
+        "Prestige Projects",
+        "Prestige Projects Gurgaon",
+        "Prestige Gurgaon Projects",
+        "Prestige residential projects Gurgaon",
+        "Prestige new projects Gurgaon",
+        "Prestige Sector 92 Gurgaon",
+        "Prestige Sector 92 Gurgaon Gurgaon",
+        "Prestige Sector 109 Gurgaon Gurgaon",
+        "Prestige property Gurgaon",
+        "Prestige flats Gurgaon",
         "Gurgaon residential projects",
         "Gurgaon luxury apartments",
     ],
-
-    /* ---------------------------------------------------------------------- */
-    /* AUTHORS                                                                */
-    /* ---------------------------------------------------------------------- */
-
     authors: [
         {
             name: SITE_NAME,
@@ -78,19 +44,9 @@ export const metadata: Metadata = {
     publisher: SITE_NAME,
 
     applicationName: SITE_NAME,
-
-    /* ---------------------------------------------------------------------- */
-    /* CANONICAL                                                              */
-    /* ---------------------------------------------------------------------- */
-
     alternates: {
         canonical: SITE_URL,
     },
-
-    /* ---------------------------------------------------------------------- */
-    /* ROBOTS                                                                 */
-    /* ---------------------------------------------------------------------- */
-
     robots: {
         index: true,
         follow: true,
@@ -104,11 +60,6 @@ export const metadata: Metadata = {
             "max-video-preview": -1,
         },
     },
-
-    /* ---------------------------------------------------------------------- */
-    /* OPEN GRAPH                                                             */
-    /* ---------------------------------------------------------------------- */
-
     openGraph: {
         type: "website",
 
@@ -118,10 +69,10 @@ export const metadata: Metadata = {
 
         siteName: SITE_NAME,
 
-        title: "Indiabulls Projects | Premium Residential Projects in Gurgaon",
+        title: "Prestige Projects | Premium Residential Projects in Gurgaon",
 
         description:
-            "Explore Indiabulls Estate & Club and Indiabulls Heights in Gurgaon. View pricing, floor plans, amenities, location and project details.",
+            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon in Gurgaon. View pricing, floor plans, amenities, location and project details.",
 
         images: [
             {
@@ -131,36 +82,26 @@ export const metadata: Metadata = {
 
                 height: 630,
 
-                alt: "Indiabulls Projects - Premium Residential Projects in Gurgaon",
+                alt: "Prestige Projects - Premium Residential Projects in Gurgaon",
             },
         ],
     },
-
-    /* ---------------------------------------------------------------------- */
-    /* TWITTER / X                                                            */
-    /* ---------------------------------------------------------------------- */
-
     twitter: {
         card: "summary_large_image",
 
-        title: "Indiabulls Projects | Premium Residential Projects in Gurgaon",
+        title: "Prestige Projects | Premium Residential Projects in Gurgaon",
 
         description:
-            "Explore Indiabulls Estate & Club and Indiabulls Heights in Gurgaon, including pricing, floor plans, amenities and location.",
+            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon in Gurgaon, including pricing, floor plans, amenities and location.",
 
         images: [
             {
                 url: "/og-image.webp",
 
-                alt: "Indiabulls Projects - Premium Residential Projects in Gurgaon",
+                alt: "Prestige Projects - Premium Residential Projects in Gurgaon",
             },
         ],
     },
-
-    /* ---------------------------------------------------------------------- */
-    /* ICONS                                                                  */
-    /* ---------------------------------------------------------------------- */
-
     icons: {
         icon: "/favicon.ico",
 
@@ -169,11 +110,6 @@ export const metadata: Metadata = {
         apple: "/apple-touch-icon.png",
     },
 };
-
-/* -------------------------------------------------------------------------- */
-/* ROOT LAYOUT                                                               */
-/* -------------------------------------------------------------------------- */
-
 export default function RootLayout({
     children,
 }: Readonly<{

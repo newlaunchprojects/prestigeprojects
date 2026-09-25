@@ -20,7 +20,7 @@ export default function TermsPage() {
                 <h2>Purpose of This Website</h2>
                 <p>
                     This website provides general information relating to
-                    Indiabulls Estate &amp; Club, Indiabulls Heights and other
+                    Prestige Sector 92, Prestige Sector 109 Gurgaon and other
                     project information made available through this microsite.
                     The website is intended to help visitors understand project
                     features, configurations, amenities, location advantages and

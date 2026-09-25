@@ -1,7 +1,7 @@
-# Indiabulls Projects
+# Prestige Projects
 
 A two-project launch microsite with a reusable architecture for future projects.
-Initial projects: **Indiabulls Estate & Club** and **Indiabulls Heights**.
+Initial projects: **Prestige Sector 92 Gurgaon** and **Prestige Sector 109 Gurgaon**.
 
 Stack: Next.js App Router · TypeScript · Tailwind CSS · Framer Motion
 

@@ -45,15 +45,14 @@ export function ProjectHero({ project }: { project: Project }) {
                                 <div className="rounded-full border border-stone-50/80 px-4 py-2 text-base font-medium tracking-wide text-stone-50 sm:px-6 sm:py-3 sm:text-sm md:text-lg">
                                     <span>Starting Price : </span>
                                     <span>{project.startingPrice}</span>
-                                    <span> Onwards</span>
                                 </div>
                             )}
-                            {project.bookingAmount && (
+                            {/* {project.bookingAmount && (
                                 <div className="rounded-full border border-stone-50/80 px-4 py-2 text-base font-medium tracking-wide text-stone-50 sm:px-6 sm:py-3 sm:text-sm md:text-lg">
                                     <span>Booking Amount : </span>
                                     <span>{project.bookingAmount}</span>
                                 </div>
-                            )}
+                            )} */}
                         </div>
                         {project.reraNumber && (
                             <div className="mt-5 flex items-center gap-3">

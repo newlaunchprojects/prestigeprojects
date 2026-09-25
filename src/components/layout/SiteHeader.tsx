@@ -85,17 +85,17 @@ export function SiteHeader() {
                     {/* Logo */}
                     <Link
                         href="/"
-                        aria-label="Indiabulls Projects"
+                        aria-label="Prestige Projects"
                         className="shrink-0"
                     >
                         <Image
-                            src="/indiabulls.svg"
-                            alt="Indiabulls"
-                            title="Indiabulls"
+                            src="/Prestige.svg"
+                            alt="Prestige"
+                            title="Prestige"
                             width={150}
                             height={50}
                             priority
-                            className="h-auto w-26.25 md:w-31.25"
+                            className="h-15 w-26.25 md:w-31.25"
                         />
                     </Link>
 

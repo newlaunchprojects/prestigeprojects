@@ -20,7 +20,17 @@ export function PricingGrid({ project }: { project: Project }) {
                 </p>
             </div>
 
-            <div className="grid gap-px overflow-hidden border border-stone-200 bg-stone-200 sm:grid-cols-2">
+            <div
+                className={`grid gap-px overflow-hidden border border-stone-200 bg-stone-200 ${
+                    project.configurations.length === 1
+                        ? "grid-cols-1"
+                        : project.configurations.length === 2
+                          ? "sm:grid-cols-2"
+                          : project.configurations.length === 3
+                            ? "sm:grid-cols-3"
+                            : "sm:grid-cols-2 lg:grid-cols-4"
+                }`}
+            >
                 {project.configurations.map((config, index) => (
                     <article
                         key={config.name}
@@ -63,6 +73,7 @@ export function PricingGrid({ project }: { project: Project }) {
 
                             <div className="mt-6 flex items-center gap-3 text-sm font-medium text-ink-900">
                                 <span>Get Latest Price</span>
+
                                 <span className="transition-transform duration-300 group-hover:translate-x-1">
                                     →
                                 </span>

@@ -1,49 +1,108 @@
-import Image from "next/image";
+import {
+    FaChild,
+    FaDumbbell,
+    FaFootballBall,
+    FaGamepad,
+    FaSpa,
+    FaSwimmer,
+    FaTrophy,
+} from "react-icons/fa";
+
+import {
+    MdOutlineSportsGymnastics,
+    MdSelfImprovement,
+    MdSportsCricket,
+    MdSportsTennis,
+    MdSportsVolleyball,
+} from "react-icons/md";
+
+import { GiBoxingGlove, GiMountainRoad } from "react-icons/gi";
+
+import { IoHome, IoWater } from "react-icons/io5";
+
 import type { Project } from "@/data/projects";
+
+/**
+ * Map the icon names stored in project data
+ * to react-icons components.
+ */
+const amenityIcons = {
+    Dumbbell: FaDumbbell,
+    "Yoga & Meditation": MdSelfImprovement,
+    "Swimming Pool": FaSwimmer,
+    Spa: FaSpa,
+    "Indoor Games": FaGamepad,
+    "Steam & Sauna": IoWater,
+    "Boxing Ring": GiBoxingGlove,
+    "Clubhouse Reception": IoHome,
+
+    "Sports Arena": FaTrophy,
+    "Tennis Court": MdSportsTennis,
+    "Volleyball Court": MdSportsVolleyball,
+    "Cricket Ground": MdSportsCricket,
+    "Squash Court": MdOutlineSportsGymnastics,
+    "Kids Play Area": FaChild,
+    "Rooftop Lounge": GiMountainRoad,
+    "Football Ground": FaFootballBall,
+} as const;
 
 export function Amenities({ project }: { project: Project }) {
     return (
         <section
             id="amenities"
-            className="bg-moss-700 py-10 text-stone-50 md:py-18"
+            className="bg-bronze-600 py-10 text-stone-50 md:py-18"
         >
             <div className="container-page">
+                {/* Section Heading */}
                 <h2 className="font-display text-3xl md:text-4xl">
                     {project.name} Amenities
                 </h2>
-                <p className="mt-3 max-w-[55ch] text-stone-50/80">
-                    Amenities at {project.name} are organised around how
-                    residents actually spend their day — not as a checklist of
-                    icons.
-                </p>
 
+                {/* Amenity Groups */}
                 <div className="mt-14 space-y-14">
                     {project.amenities.map((group) => (
                         <div key={group.category}>
-                            <h3 className="mb-5 text-sm tracking-wide text-stone-50/70">
+                            {/* Category */}
+                            <h3 className="mb-6 text-sm tracking-wide text-stone-50/70">
                                 {group.category}
                             </h3>
-                            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-                                {group.items.map((item) => (
-                                    // <div key={item.name} className="group">
-                                    <div
-                                        key={item.image}
-                                        className="relative aspect-square w-full overflow-hidden rounded-[3px]"
-                                    >
-                                        {item.image && (
-                                            <Image
-                                                src={item.image}
-                                                alt="amenities"
-                                                title="amenities"
-                                                fill
-                                                sizes="(max-width: 768px) 45vw, 240px"
-                                                className="object-cover transition-transform duration-300 group-hover:scale-105"
-                                            />
-                                        )}
-                                    </div>
-                                    // {/* <p className="mt-2 text-sm text-stone-50/90">{item.name}</p> */}
-                                    // </div>
-                                ))}
+
+                            {/* Amenities */}
+                            <div className="grid grid-cols-2 gap-x-6 gap-y-9 sm:grid-cols-3 lg:grid-cols-4">
+                                {group.items.map((item) => {
+                                    const Icon =
+                                        amenityIcons[
+                                            item.icon as keyof typeof amenityIcons
+                                        ];
+
+                                    return (
+                                        <div
+                                            key={item.title}
+                                            className="group flex flex-col items-center text-center"
+                                        >
+                                            {/* React Icon */}
+                                            <div className="flex h-10 items-center justify-center">
+                                                {Icon ? (
+                                                    <Icon
+                                                        size={30}
+                                                        strokeWidth={1.5}
+                                                        className="text-stone-50 transition-transform duration-300 group-hover:scale-110"
+                                                    />
+                                                ) : (
+                                                    <IoHome
+                                                        size={30}
+                                                        className="text-stone-50 transition-transform duration-300 group-hover:scale-110"
+                                                    />
+                                                )}
+                                            </div>
+
+                                            {/* Amenity Title */}
+                                            <p className="mt-3 text-sm font-medium text-stone-50/90 transition-colors duration-300 group-hover:text-stone-50">
+                                                {item.title}
+                                            </p>
+                                        </div>
+                                    );
+                                })}
                             </div>
                         </div>
                     ))}

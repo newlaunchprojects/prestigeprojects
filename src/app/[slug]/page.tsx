@@ -19,30 +19,14 @@ import { FinalCTA } from "@/components/project/FinalCTA";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { MobileStickyBar } from "@/components/layout/MobileStickyBar";
+const SITE_URL = "https://Prestige-projects.com";
 
-/* -------------------------------------------------------------------------- */
-/* SITE CONFIGURATION                                                         */
-/* -------------------------------------------------------------------------- */
-
-const SITE_URL =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://indiabulls-projects.com";
-
-const SITE_NAME = "Indiabulls Projects";
-
-/* -------------------------------------------------------------------------- */
-/* STATIC PARAMS                                                             */
-/* -------------------------------------------------------------------------- */
-
+const SITE_NAME = "Prestige Projects";
 export function generateStaticParams() {
     return projects.map((project) => ({
         slug: project.slug,
     }));
 }
-
-/* -------------------------------------------------------------------------- */
-/* SEO METADATA                                                               */
-/* -------------------------------------------------------------------------- */
-
 export async function generateMetadata({
     params,
 }: {
@@ -51,14 +35,9 @@ export async function generateMetadata({
     const { slug } = await params;
 
     const project = getProjectBySlug(slug);
-
-    /**
-     * If project doesn't exist, prevent search engines
-     * from indexing the page.
-     */
     if (!project) {
         return {
-            title: "Project Not Found | Indiabulls Projects",
+            title: "Project Not Found | Prestige Projects",
 
             robots: {
                 index: false,
@@ -76,10 +55,6 @@ export async function generateMetadata({
     const ogImage = project.openGraphImage || project.heroImage;
 
     return {
-        /* ------------------------------------------------------------------ */
-        /* BASIC                                                               */
-        /* ------------------------------------------------------------------ */
-
         title,
 
         description,
@@ -95,21 +70,11 @@ export async function generateMetadata({
         creator: SITE_NAME,
 
         publisher: SITE_NAME,
-
-        /* ------------------------------------------------------------------ */
-        /* CANONICAL                                                          */
-        /* ------------------------------------------------------------------ */
-
         metadataBase: new URL(SITE_URL),
 
         alternates: {
             canonical: canonicalUrl,
         },
-
-        /* ------------------------------------------------------------------ */
-        /* ROBOTS                                                             */
-        /* ------------------------------------------------------------------ */
-
         robots: {
             index: true,
             follow: true,
@@ -123,11 +88,6 @@ export async function generateMetadata({
                 "max-video-preview": -1,
             },
         },
-
-        /* ------------------------------------------------------------------ */
-        /* OPEN GRAPH                                                         */
-        /* ------------------------------------------------------------------ */
-
         openGraph: {
             type: "website",
 
@@ -149,15 +109,10 @@ export async function generateMetadata({
 
                     height: 630,
 
-                    alt: `${project.name} - Indiabulls Projects`,
+                    alt: `${project.name} - Prestige Projects`,
                 },
             ],
         },
-
-        /* ------------------------------------------------------------------ */
-        /* TWITTER / X                                                        */
-        /* ------------------------------------------------------------------ */
-
         twitter: {
             card: "summary_large_image",
 
@@ -169,17 +124,12 @@ export async function generateMetadata({
                 {
                     url: ogImage,
 
-                    alt: `${project.name} - Indiabulls Projects`,
+                    alt: `${project.name} - Prestige Projects`,
                 },
             ],
         },
     };
 }
-
-/* -------------------------------------------------------------------------- */
-/* PAGE                                                                       */
-/* -------------------------------------------------------------------------- */
-
 export default async function ProjectPage({
     params,
 }: {
@@ -188,21 +138,10 @@ export default async function ProjectPage({
     const { slug } = await params;
 
     const project = getProjectBySlug(slug);
-
-    /* ---------------------------------------------------------------------- */
-    /* 404                                                                    */
-    /* ---------------------------------------------------------------------- */
-
     if (!project) {
         notFound();
     }
-
     const projectUrl = `${SITE_URL}/${project.slug}`;
-
-    /* ---------------------------------------------------------------------- */
-    /* BREADCRUMB SCHEMA                                                      */
-    /* ---------------------------------------------------------------------- */
-
     const breadcrumbSchema = {
         "@context": "https://schema.org",
 
@@ -240,11 +179,6 @@ export default async function ProjectPage({
             },
         ],
     };
-
-    /* ---------------------------------------------------------------------- */
-    /* WEBSITE SCHEMA                                                         */
-    /* ---------------------------------------------------------------------- */
-
     const websiteSchema = {
         "@context": "https://schema.org",
 
@@ -257,13 +191,8 @@ export default async function ProjectPage({
         url: SITE_URL,
 
         description:
-            "Explore Indiabulls real estate projects in Gurgaon, including project details, pricing, floor plans, amenities and location information.",
+            "Explore Prestige real estate projects in Gurgaon, including project details, pricing, floor plans, amenities and location information.",
     };
-
-    /* ---------------------------------------------------------------------- */
-    /* WEBPAGE SCHEMA                                                         */
-    /* ---------------------------------------------------------------------- */
-
     const webPageSchema = {
         "@context": "https://schema.org",
 
@@ -304,11 +233,6 @@ export default async function ProjectPage({
             url: project.heroImage,
         },
     };
-
-    /* ---------------------------------------------------------------------- */
-    /* REAL ESTATE / RESIDENCE SCHEMA                                         */
-    /* ---------------------------------------------------------------------- */
-
     const residenceSchema = {
         "@context": "https://schema.org",
 
@@ -341,17 +265,8 @@ export default async function ProjectPage({
             url: SITE_URL,
         },
     };
-
-    /* ---------------------------------------------------------------------- */
-    /* PAGE                                                                    */
-    /* ---------------------------------------------------------------------- */
-
     return (
         <>
-            {/* ================================================================== */}
-            {/* STRUCTURED DATA                                                    */}
-            {/* ================================================================== */}
-
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -379,101 +294,22 @@ export default async function ProjectPage({
                     __html: JSON.stringify(residenceSchema),
                 }}
             />
-
-            {/* ================================================================== */}
-            {/* HEADER                                                              */}
-            {/* ================================================================== */}
-
             <SiteHeader />
-
-            {/* ================================================================== */}
-            {/* MAIN CONTENT                                                        */}
-            {/* ================================================================== */}
-
             <main>
-                {/* ---------------------------------------------------------------- */}
-                {/* PROJECT HERO                                                      */}
-                {/* ---------------------------------------------------------------- */}
-
                 <ProjectHero project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* QUICK FACTS                                                       */}
-                {/* ---------------------------------------------------------------- */}
-
                 <QuickFacts project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* PROJECT OVERVIEW                                                  */}
-                {/* ---------------------------------------------------------------- */}
-
                 <Overview project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* PROJECT HIGHLIGHTS                                                */}
-                {/* ---------------------------------------------------------------- */}
-
                 <Highlights project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* PRICING                                                          */}
-                {/* ---------------------------------------------------------------- */}
-
                 <PricingGrid project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* AMENITIES                                                         */}
-                {/* ---------------------------------------------------------------- */}
-
                 <Amenities project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* FLOOR PLANS                                                       */}
-                {/* ---------------------------------------------------------------- */}
-
                 <FloorPlans project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* GALLERY                                                           */}
-                {/* ---------------------------------------------------------------- */}
-
                 <Gallery project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* LOCATION                                                          */}
-                {/* ---------------------------------------------------------------- */}
-
                 <LocationSection project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* WHY THIS PROJECT                                                  */}
-                {/* ---------------------------------------------------------------- */}
-
                 <WhyProject project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* FAQ                                                               */}
-                {/* ---------------------------------------------------------------- */}
-
                 <FAQSection project={project} />
-
-                {/* ---------------------------------------------------------------- */}
-                {/* FINAL CTA                                                         */}
-                {/* ---------------------------------------------------------------- */}
-
                 <FinalCTA project={project} />
             </main>
-
-            {/* ================================================================== */}
-            {/* FOOTER                                                              */}
-            {/* ================================================================== */}
-
             <SiteFooter />
-
-            {/* ================================================================== */}
-            {/* MOBILE CTA                                                          */}
-            {/* ================================================================== */}
-
             <MobileStickyBar projectName={project.name} />
         </>
     );
