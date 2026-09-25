@@ -22,10 +22,6 @@ import { IoHome, IoWater } from "react-icons/io5";
 
 import type { Project } from "@/data/projects";
 
-/**
- * Map the icon names stored in project data
- * to react-icons components.
- */
 const amenityIcons = {
     Dumbbell: FaDumbbell,
     "Yoga & Meditation": MdSelfImprovement,
@@ -50,25 +46,40 @@ export function Amenities({ project }: { project: Project }) {
     return (
         <section
             id="amenities"
-            className="bg-bronze-600 py-10 text-stone-50 md:py-18"
+            className="bg-bronze-600 py-14 text-stone-50 md:py-20"
         >
             <div className="container-page">
-                {/* Section Heading */}
-                <h2 className="font-display text-3xl md:text-4xl">
-                    {project.name} Amenities
-                </h2>
+                {/* Heading */}
+                <div className="max-w-2xl">
+                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-stone-50/65">
+                        Lifestyle & Wellness
+                    </p>
+
+                    <h2 className="font-display text-3xl leading-tight md:text-4xl">
+                        {project.name} Amenities
+                    </h2>
+
+                    <p className="mt-4 max-w-xl text-sm leading-7 text-stone-50/70">
+                        Thoughtfully designed spaces and facilities created for
+                        recreation, wellness and everyday living.
+                    </p>
+                </div>
 
                 {/* Amenity Groups */}
-                <div className="mt-14 space-y-14">
+                <div className="mt-12 space-y-12 md:mt-16 md:space-y-16">
                     {project.amenities.map((group) => (
                         <div key={group.category}>
                             {/* Category */}
-                            <h3 className="mb-6 text-sm tracking-wide text-stone-50/70">
-                                {group.category}
-                            </h3>
+                            <div className="mb-6 flex items-center gap-4">
+                                <h3 className="shrink-0 text-[10px] font-medium uppercase tracking-[0.18em] text-stone-50/65">
+                                    {group.category}
+                                </h3>
+
+                                <span className="h-px flex-1 bg-stone-50/15" />
+                            </div>
 
                             {/* Amenities */}
-                            <div className="grid grid-cols-2 gap-x-6 gap-y-9 sm:grid-cols-3 lg:grid-cols-4">
+                            <div className="grid grid-cols-2 border-l border-t border-stone-50/15 sm:grid-cols-3 lg:grid-cols-4">
                                 {group.items.map((item) => {
                                     const Icon =
                                         amenityIcons[
@@ -78,26 +89,42 @@ export function Amenities({ project }: { project: Project }) {
                                     return (
                                         <div
                                             key={item.title}
-                                            className="group flex flex-col items-center text-center"
+                                            className="
+                                                group
+                                                flex min-h-32
+                                                flex-col items-start
+                                                justify-center
+                                                border-b border-r border-stone-50/15
+                                                px-5 py-6
+                                                transition-colors duration-300
+                                                hover:bg-stone-50/5
+                                                md:min-h-36
+                                                md:px-6
+                                            "
                                         >
-                                            {/* React Icon */}
-                                            <div className="flex h-10 items-center justify-center">
+                                            {/* Icon */}
+                                            <div
+                                                className="
+                                                    flex h-10 w-10
+                                                    items-center justify-center
+                                                    text-stone-50/85
+                                                    transition-transform
+                                                    duration-300
+                                                    group-hover:-translate-y-1
+                                                "
+                                            >
                                                 {Icon ? (
                                                     <Icon
-                                                        size={30}
+                                                        size={25}
                                                         strokeWidth={1.5}
-                                                        className="text-stone-50 transition-transform duration-300 group-hover:scale-110"
                                                     />
                                                 ) : (
-                                                    <IoHome
-                                                        size={30}
-                                                        className="text-stone-50 transition-transform duration-300 group-hover:scale-110"
-                                                    />
+                                                    <IoHome size={25} />
                                                 )}
                                             </div>
 
-                                            {/* Amenity Title */}
-                                            <p className="mt-3 text-sm font-medium text-stone-50/90 transition-colors duration-300 group-hover:text-stone-50">
+                                            {/* Title */}
+                                            <p className="mt-4 text-sm font-medium leading-snug text-stone-50/90">
                                                 {item.title}
                                             </p>
                                         </div>

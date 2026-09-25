@@ -40,22 +40,24 @@ export function ContactActions({
                 DESKTOP
             ====================================================== */}
             <div className={cn("hidden items-center gap-3 md:flex", className)}>
+                {/* Call */}
                 <a
                     href={site.phoneHref}
                     onClick={() => track("call_click")}
                     aria-label="Call now"
                     className={cn(
-                        "inline-flex items-center justify-center gap-2 rounded-[3px] border transition-colors",
+                        "inline-flex items-center justify-center gap-2 rounded-[3px] border transition-all duration-300",
                         dark
-                            ? "border-stone-50/40 text-stone-50 hover:border-stone-50"
-                            : "border-ink-900/30 text-ink-900 hover:border-ink-900",
+                            ? "border-stone-50/50 bg-transparent text-stone-50 hover:border-stone-50 hover:bg-stone-50 hover:text-ink-900"
+                            : "border-ink-900/30 bg-transparent text-ink-50 hover:border-ink-900 hover:bg-ink-900 hover:text-stone-50",
                         compact ? "h-11 w-11" : "h-11 px-4 text-sm",
                     )}
                 >
-                    <Phone size={16} />
+                    <Phone size={16} strokeWidth={1.6} />
                     {!compact && <span>Call</span>}
                 </a>
 
+                {/* WhatsApp */}
                 <a
                     href={site.whatsappHref}
                     onClick={() => track("whatsapp_click")}
@@ -63,7 +65,10 @@ export function ContactActions({
                     rel="noopener noreferrer"
                     aria-label="WhatsApp us"
                     className={cn(
-                        "inline-flex items-center justify-center gap-2 rounded-[3px] border border-ink-900 bg-ink-900 duration-300 hover:border-bronze-600 hover:bg-bronze-600 text-stone-50",
+                        "inline-flex items-center justify-center gap-2 rounded-[3px] border transition-all duration-300",
+                        dark
+                            ? "border-stone-50 bg-stone-50 text-ink-900 hover:border-bronze-600 hover:bg-bronze-600 hover:text-stone-50"
+                            : "border-ink-900 bg-ink-900 text-stone-50 hover:border-bronze-600 hover:bg-bronze-600",
                         compact ? "h-11 w-11" : "h-11 px-4 text-sm",
                     )}
                 >
@@ -85,7 +90,7 @@ export function ContactActions({
                         "text-[11px] font-medium uppercase tracking-[0.16em]",
                         "transition-all duration-300",
                         dark
-                            ? "border-stone-50/50 bg-ink-900/20 text-stone-50 hover:bg-stone-50 hover:text-ink-900"
+                            ? "border-stone-50/50 bg-stone-50/10 text-stone-50 hover:bg-stone-50 hover:text-ink-900"
                             : "border-ink-900/20 bg-white text-ink-900 hover:bg-ink-900 hover:text-white",
                     )}
                 >
@@ -166,7 +171,6 @@ export function ContactActions({
                             >
                                 <FaWhatsapp
                                     size={22}
-                                    strokeWidth={1.5}
                                     className="transition-transform duration-300 group-hover:-translate-y-0.5"
                                 />
 

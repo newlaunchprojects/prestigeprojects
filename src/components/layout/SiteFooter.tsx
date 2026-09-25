@@ -8,7 +8,7 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
         <footer
             className={
                 minimal
-                    ? "relative z-10 border-t border-stone-50/20 bg-transparent text-stone-50"
+                    ? "relative z-10 border-stone-50/20 bg-stone-100/60 text-ink-700"
                     : "border-t border-stone-200 bg-stone-50 text-ink-900"
             }
         >
@@ -43,11 +43,7 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
                     <a href={site.phoneHref} className="hover:underline">
                         {site.phone}
                     </a>
-                    <span
-                        className={
-                            minimal ? "text-stone-50/70" : "text-ink-500"
-                        }
-                    >
+                    <span className={minimal ? "text-ink-700" : "text-ink-500"}>
                         Call · WhatsApp
                     </span>
                 </div>
@@ -55,7 +51,7 @@ export function SiteFooter({ minimal = false }: { minimal?: boolean }) {
             <div
                 className={
                     "container-page lg:pb-6 pb-18 text-xs " +
-                    (minimal ? "text-stone-50/50" : "text-ink-500")
+                    (minimal ? "text-ink-700" : "text-ink-500")
                 }
             >
                 Disclaimer : All information on this website is for general
