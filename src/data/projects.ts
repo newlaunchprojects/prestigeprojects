@@ -453,11 +453,9 @@ export const projects: Project[] = [
         ],
 
         overview: [
-            "Prestige Real Estate is one of the renowned developers and is now ready with its new residential project, which is located in the prime location of **Sector 104, Gurugram**.",
-            " To begin the Prestige Sector 109 Gurgaon Overview, this property comes with an elegant design and the finest infrastructure in the area.",
-            "This residential property comprises comfortable and luxurious **2 BHK and 3 BHK apartments**, which have their private balconies and modern interiors.",
-            "Furthermore, this property has a lifestyle-focused environment, wherein the residents can enjoy top-class facilities and seamless connectivity.",
-            "The apartments, too, are spacious and hold a strong space to accommodate any size of family.",
+            "Gurgaon has been booming with residential developments, and when it comes to finding a luxury property in the newly developed areas like Sector 109, the hunt for homebuyers and investors has definitely come to an end.",
+            "Indeed, the new **Prestige Sector 109 Gurgaon** is an upcoming property that is set to become the face of the area. Built on a wide area, with a posh neighborhood, this residential project will certainly set the standards high.",
+            "This guide will take you through the key details surfacing around its amenities, the property, prices, floor plan, and more.",
         ],
 
         highlights: [
@@ -638,53 +636,55 @@ export const projects: Project[] = [
 
         whyThisProject: [
             {
-                title: "Everything About Prestige Sector 109 Gurgaon Sector 104",
+                title: "Prestige: Blending Comfort with Connectivity",
                 description:
-                    "From well-constructed architecture to the finest interiors, this property offers a premium range of apartments. The homes in the property come in 2 BHK and 3 BHK configurations. Each apartment has spacious bedrooms and living areas, accompanied by a modular kitchen. Likewise, the bathrooms have fittings and fixtures from reputed brands. The development of the project has been done with Vastu compliance. Similarly, this residential project is earthquake-resistant, wherein the walls stand strong on the RCC structure. The interiors of the property have been curated, keeping the needs of the lifestyle in consideration. The **Prestige Sector 109 Gurgaon Sector 104 Gurgaon**, thus, is a perfect combination of luxury, comfort, and modern life amenities.",
+                    "One of the prime advantages of investing in **Prestige Sector 109 Gurgaon** is its location. Indeed, positioned near the Dwarka Expressway, this residential township serves as a doorway to Delhi and other nearby regions of NCR. Similarly, the employment corridors like IMT Manesar, Cyber City, and others are easily reachable and offer immense benefits to professionals. On the other hand, the property is close to the city’s top educational and healthcare facilities, where families can make the most of the conveniences. This project, in turn, is a perfect combination of contemporary lifestyle and exceptional city connectivity, meeting the needs of today's residents. ",
             },
             {
-                title: "The Pricing and More",
+                title: "Exploring the Price and Benefits",
                 description:
-                    "When it comes to understanding the **Prestige Sector 109 Gurgaon price** for the apartments, potential buyers and investors will make their selection based on multiple factors. The current rates of the Prestige Sector 109 Gurgaon vary depending on the apartment size, floor, and configurations. As the property prices keep on fluctuating over time, the prices for these apartments too come along with flexible rates. However, buyers are eligible to avail the prime benefits of early investment, flexible payment plans, ease of choosing the preferred floors and configurations, and making the most of final pricing. Since the demand for property is already at a peak, investing early will result in a beneficial deal.",
+                    "When it comes to **Prestige Sector 109 Price**, the developer has yet to announce official apartment rates because the project is still under development. However, it is strongly suggested that investing in a pre-launch project always comes with outstanding benefits like pre-launch discounts, offers, flexibility in rates, and of course, the choice of your apartment. In terms of pricing, the cost of each apartment varies depending on its floor plan, configuration, unit location, and similar. But before investing, a homebuyer must make himself aware of the charges and additional costs that might arise as an issue during the payment process.",
             },
             {
-                title: "Understanding the Brochure",
+                title: "Floor Plan: Know About These Apartments for Modern Families",
                 description:
-                    "In order to get the best of the details, the **Prestige Sector 109 Gurgaon brochure** offers a detailed overview of the project. The brochure of this residential property consists of details surrounding floor plans, amenities, overall development, and specifications. The official website of Prestige Sector 109 Gurgaon offers the option for potential buyers and investors to download the brochure. Also, buyers can compare configurations and lifestyle facilities. The brochure also offers details on the location and its seamless connectivity with the city’s hotspots, reputed schools, top hospitals, and employment corridors at Sector 104.",
+                    "According to the current updates from the developer, the **Prestige Sector 109 Floor Plan** will comprise multiple configurations, including 2 BHK, 3 BHK, and 4 BHK apartments. These high-rise homes will be developed with exclusive modern interiors and ensure that ventilation passes through each corner of the house. Furthermore, the fittings and fixtures will be from reputed brands, accompanied by a modular kitchen. Also, the balconies are super vast and have ample space to fit diverse family sizes. Built with a strong RCC structure, this residential project is also earthquake-resistant and safe from other natural disasters.",
             },
             {
-                title: "Exploring Amenities of the Project",
+                title: "Lifestyle Amenities Not to Miss On",
                 description:
-                    "When it comes to the **Prestige Sector 109 Gurgaon amenities**, this property is packed with lifestyle facilities that make the residential experience for residents worthwhile. This property offers a range of facilities that include wellness, leisure, and recreation. The residents are offered a swimming pool, on-site restaurant, and gymnasium, while the kids get access to a multi-sports arena equipped with basketball, a play area, cricket, and tennis, etc. The property also has green spaces that enrich the lifestyle with fresh air and peace of mind. Similarly, the security standards are top-notch with a 5-tier security system. The water and power supply are uninterrupted, and car parking is also available.",
+                    "The **Prestige Sector 109 Amenities** are planned in accordance with the modern needs of the residents, wherein there will be wellness, leisure, recreation, and ultimate peace. The property is equipped with a fitness centre, sports facilities, and a spa and sauna. Also, the freshness is fostered by the green surroundings and serene landscaped gardens, wherein there are walking trails and gazebos. From the clubhouse to multi-purpose halls and other social zones, the residents’ collectiveness is also fostered within the township. Other than this, the security is managed by a multi-tier system. Also, the residents are offered access to water and power supply, lifts, and car parking.",
             },
         ],
 
         faqs: [
             {
-                question: "Where is Prestige Sector 109 Gurgaon Located?",
-                answer: "Prestige Sector 109 Gurgaon is situated at Sector 104, Dwarka Expressway, Gurugram.",
-            },
-            {
-                question: "Is Prestige Sector 109 Gurgaon RERA Registered?",
-                answer: "Yes, the project is registered under the RERA number: RC/REP/HARERA/GGM/160(A) of 2017/7(3)/89/2025/31.",
+                question:
+                    "Where is this new Prestige property located in Gurgaon?",
+                answer: "This property is positioned near Dwarka Expressway, in Sector 109, Gurgaon.",
             },
             {
                 question:
-                    "What kind of apartments are available in Prestige Sector 109 Gurgaon?",
-                answer: "The buyers can choose from 2 BHK and 3 BHK apartments; however, the floor plan varies depending on the floor and other specifications.",
+                    "Who is the developer of this upcoming residential project?",
+                answer: "The Prestige Sector 109 Gurgaon is being developed by the renowned developer, Prestige Group.",
             },
             {
                 question:
-                    "What are the facilities available at Prestige Sector 109 Gurgaon?",
-                answer: "The amenities available include a swimming pool, gymnasium, spa, on-site restaurant, sports, and gardens.",
+                    "What are the floor plans available in Prestige Sector 109?",
+                answer: "This property will offer multiple apartments ranging from 2 BHK to 3 BHK and 4 BHK.",
             },
             {
-                question: "Is investment in Sector 104 worth it?",
-                answer: "Yes, the area is booming with rapid urbanisation, development of social infrastructure, and enhanced connectivity.",
+                question: "Are there any payment plans available?",
+                answer: "The developer has yet to announce the prices of the apartments officially. However, the pre-launch offers can be queried on their support desk.",
             },
             {
-                question: "When is possession expected?",
-                answer: "The details are yet to be confirmed from the property's end. However, it is expected somewhere around October 2030.",
+                question:
+                    "What are the facilities offered at Prestige Sector 109?",
+                answer: "The project offers amenities like a fitness centre, kids’ zone, clubhouse, gardens, swimming pool, and yoga.",
+            },
+            {
+                question: "When is the project being launched?",
+                answer: "The launch date of Prestige Sector 109 is yet to be announced.",
             },
         ],
     },

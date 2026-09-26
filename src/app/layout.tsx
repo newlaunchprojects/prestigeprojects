@@ -8,7 +8,7 @@ import "./globals.css";
 
 import { LeadFormProvider } from "@/components/ui/LeadFormProvider";
 import { Analytics } from "@vercel/analytics/next";
-const SITE_URL = "https://prestigeprojects-wheat.vercel.app";
+const SITE_URL = "https://prestige-gurgaon.com";
 
 const SITE_NAME = "Prestige Projects";
 
