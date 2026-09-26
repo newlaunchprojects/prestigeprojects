@@ -72,7 +72,7 @@ export const metadata: Metadata = {
         title: "Prestige Projects | Premium Residential Projects in Gurgaon",
 
         description:
-            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon in Gurgaon. View pricing, floor plans, amenities, location and project details.",
+            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon. View pricing, floor plans, amenities, location and project details.",
 
         images: [
             {
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
         title: "Prestige Projects | Premium Residential Projects in Gurgaon",
 
         description:
-            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon in Gurgaon, including pricing, floor plans, amenities and location.",
+            "Explore Prestige Sector 92 Gurgaon and Prestige Sector 109 Gurgaon, including pricing, floor plans, amenities and location.",
 
         images: [
             {
