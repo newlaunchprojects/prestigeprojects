@@ -76,7 +76,7 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        slug: "prestige-sector-92",
+        slug: "prestige-sector-92-gurgaon",
         name: "Prestige Sector 92 Gurgaon",
         shortName: "Sector 92",
         location: "Sector 92, Gurgaon",
@@ -142,7 +142,7 @@ export const projects: Project[] = [
         ],
 
         overview: [
-            "One of the most renowned real estate developers, Prestige Group, has finally landed in Gurgaon with its upcoming luxurious residential project, [Prestige Sector 92](https://prestige-gurgaon.com/prestige-sector-92).",
+            "One of the most renowned real estate developers, Prestige Group, has finally landed in Gurgaon with its upcoming luxurious residential project, [Prestige Sector 92 Gurgaon](https://prestige-gurgaon.com/prestige-sector-92).",
             "This is one of the most anticipated developments that has grabbed the attention of both homebuyers and investors.",
             "Coming along with classy infrastructure and elegant apartments, this residential property is set to transform the area with a luxurious presence.",
             "Furthermore, these residences are crafted with lifestyle amenities, open spaces, and timeless connectivity that embrace the lifestyle of residents.",
@@ -387,7 +387,7 @@ export const projects: Project[] = [
     // ========================================================================
 
     {
-        slug: "prestige-sector-109",
+        slug: "prestige-sector-109-gurgaon",
         name: "Prestige Sector 109 Gurgaon",
         shortName: "Sector 109",
         location: "Sector 109, Gurgaon",
