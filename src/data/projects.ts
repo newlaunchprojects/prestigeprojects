@@ -142,7 +142,7 @@ export const projects: Project[] = [
         ],
 
         overview: [
-            "One of the most renowned real estate developers, Prestige Group, has finally landed in Gurgaon with its upcoming luxurious residential project, [Prestige Sector 92 Gurgaon](https://prestige-gurgaon.com/prestige-sector-92).",
+            "One of the most renowned real estate developers, Prestige Group, has finally landed in Gurgaon with its upcoming luxurious residential project, [Prestige Sector 92 Gurgaon](https://prestige-gurgaon.com/prestige-sector-92-gurgaon).",
             "This is one of the most anticipated developments that has grabbed the attention of both homebuyers and investors.",
             "Coming along with classy infrastructure and elegant apartments, this residential property is set to transform the area with a luxurious presence.",
             "Furthermore, these residences are crafted with lifestyle amenities, open spaces, and timeless connectivity that embrace the lifestyle of residents.",
@@ -454,7 +454,7 @@ export const projects: Project[] = [
 
         overview: [
             "Gurgaon has been booming with residential developments, and when it comes to finding a luxury property in the newly developed areas like Sector 109, the hunt for homebuyers and investors has definitely come to an end.",
-            "Indeed, the new [Prestige Sector 109 Gurgaon](https://prestige-gurgaon.com/prestige-sector-109) is an upcoming property that is set to become the face of the area. Built on a wide area, with a posh neighborhood, this residential project will certainly set the standards high.",
+            "Indeed, the new [Prestige Sector 109 Gurgaon](https://prestige-gurgaon.com/prestige-sector-109-gurgaon) is an upcoming property that is set to become the face of the area. Built on a wide area, with a posh neighborhood, this residential project will certainly set the standards high.",
             "This guide will take you through the key details surfacing around its amenities, the property, prices, floor plan, and more.",
         ],
 
