@@ -1,15 +1,36 @@
 import Image from "next/image";
+
 import type { Project } from "@/data/projects";
 
-function renderBoldText(text: string) {
-    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+function renderFormattedText(text: string) {
+    const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g);
 
     return parts.map((part, index) => {
+        // Bold: **text**
         if (part.startsWith("**") && part.endsWith("**")) {
             return (
                 <strong key={index} className="font-semibold text-ink-900">
                     {part.slice(2, -2)}
                 </strong>
+            );
+        }
+
+        // Link: [text](url)
+        const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+
+        if (linkMatch) {
+            const [, label, href] = linkMatch;
+
+            return (
+                <a
+                    key={index}
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-ink-900 underline underline-offset-4 hover:opacity-70"
+                >
+                    {label}
+                </a>
             );
         }
 
@@ -24,9 +45,6 @@ export function Overview({ project }: { project: Project }) {
             className="container-page grid gap-10 py-10 lg:grid-cols-2 lg:gap-16 lg:py-18"
         >
             <div>
-                <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
-                    Overview
-                </p>
                 <h2 className="font-display text-3xl text-ink-900 md:text-4xl">
                     {project.name} Project Overview
                 </h2>
@@ -37,13 +55,13 @@ export function Overview({ project }: { project: Project }) {
                             key={i}
                             className="max-w-[65ch] leading-relaxed text-ink-700"
                         >
-                            {renderBoldText(para)}
+                            {renderFormattedText(para)}
                         </p>
                     ))}
                 </div>
             </div>
 
-            <div className="relative lg:aspect-auto aspect-4/5 w-full overflow-hidden rounded-[3px]">
+            <div className="relative aspect-4/5 w-full overflow-hidden rounded-[3px] lg:aspect-auto">
                 <Image
                     src={project.heroImage}
                     alt={`${project.name} — architectural detail`}
