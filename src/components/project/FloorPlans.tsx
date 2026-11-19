@@ -38,10 +38,6 @@ export function FloorPlans({ project }: { project: Project }) {
             <div className="container-page">
                 {/* Heading */}
                 <div className="max-w-2xl">
-                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
-                        Plans & Layouts
-                    </p>
-
                     <h2 className="font-display text-3xl leading-tight text-ink-900 md:text-4xl">
                         {project.name} Floor Plans
                     </h2>

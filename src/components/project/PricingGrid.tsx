@@ -6,10 +6,6 @@ export function PricingGrid({ project }: { project: Project }) {
         <section id="pricing" className="container-page py-10 md:py-18">
             <div className="mb-12 flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
                 <div>
-                    <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-bronze-600">
-                        Residences
-                    </p>
-
                     <h2 className="font-display text-3xl leading-tight text-ink-900 md:text-4xl">
                         {project.name} Configurations &amp; Pricing
                     </h2>

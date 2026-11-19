@@ -12,11 +12,8 @@ export function FAQSection({ project }: { project: Project }) {
                 <div className="grid gap-12 lg:grid-cols-[1fr_420px]">
                     {/* FAQ */}
                     <div>
-                        <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
-                            FAQ&apos;s
-                        </p>
                         <h2 className="mb-10 font-display text-3xl text-ink-900 md:text-4xl">
-                            {project.name} FAQ&apos;s
+                            {project.name} FAQs
                         </h2>
 
                         <Accordion
@@ -42,8 +39,8 @@ export function FAQSection({ project }: { project: Project }) {
                             </h3>
 
                             <p className="mt-2 mb-7 text-xs leading-6 text-ink-500">
-                                Get the latest pricing, availability and site
-                                visit details from our team.
+                                Get the latest project details, pricing, and
+                                site visit information directly from our team.
                             </p>
 
                             <LeadForm

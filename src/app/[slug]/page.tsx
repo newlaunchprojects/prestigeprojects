@@ -14,7 +14,7 @@ import { Gallery } from "@/components/project/Gallery";
 import { LocationSection } from "@/components/project/LocationSection";
 import { WhyProject } from "@/components/project/WhyProject";
 import { FAQSection } from "@/components/project/FAQSection";
-import { FinalCTA } from "@/components/project/FinalCTA";
+// import { FinalCTA } from "@/components/project/FinalCTA";
 
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
@@ -307,7 +307,7 @@ export default async function ProjectPage({
                 <LocationSection project={project} />
                 <WhyProject project={project} />
                 <FAQSection project={project} />
-                <FinalCTA project={project} />
+                {/* <FinalCTA project={project} /> */}
             </main>
             <SiteFooter />
             <MobileStickyBar projectName={project.name} />

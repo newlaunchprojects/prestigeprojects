@@ -48,12 +48,8 @@ export function Highlights({ project }: { project: Project }) {
             onMouseLeave={() => setIsPaused(false)}
         >
             <div className="container-page mb-10 md:mb-14">
-                <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
-                    Project Highlights
-                </p>
-
                 <h2 className="font-display text-3xl leading-tight text-ink-900 md:text-4xl">
-                    {project.name}
+                    Project Highlights
                 </h2>
             </div>
 

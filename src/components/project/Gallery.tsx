@@ -17,12 +17,8 @@ export function Gallery({ project }: { project: Project }) {
             {/* Header */}
             <div className="mb-10 flex items-end justify-between gap-6 md:mb-12">
                 <div>
-                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-bronze-600">
-                        Visual Gallery
-                    </p>
-
                     <h2 className="font-display text-3xl leading-tight text-ink-900 md:text-4xl">
-                        {project.name}
+                        Visual Gallery
                     </h2>
                 </div>
 

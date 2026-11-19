@@ -91,10 +91,9 @@ export const projects: Project[] = [
         heroImage: "/heroImage/hero92.avif",
         cardImage: "/heroImage/hero92.avif",
         openGraphImage: "/sector92Ogimage.webp",
-        metaTitle:
-            "Prestige Sector 92 Gurgaon | Price, Brochure, Floor Plans & Amenities",
+        metaTitle: "Prestige Sector 92 Gurgaon | Price, Brochure & Floor Plans",
         metaDescription:
-            "Explore Prestige Sector 92 Gurgaon. Get the latest price list, brochure, floor plans, world-class amenities, specifications, location advantages, and booking details for premium residences.",
+            "Explore Prestige Sector 92 Gurgaon. Get the latest price list, brochure, floor plans, amenities, location advantages.",
         metaKeywords: [
             "Prestige Sector 92 Gurgaon",
             "Prestige Sector 92 Gurgaon brochure",
@@ -402,10 +401,9 @@ export const projects: Project[] = [
         heroImage: "/heroImage/sector109.avif",
         cardImage: "/heroImage/sector109.avif",
         openGraphImage: "/sector109Ogimage.webp",
-        metaTitle:
-            "Prestige Sector 109 Gurgaon Dwarka Expressway | Price, Floor Plan & Brochure",
+        metaTitle: "Prestige Sector 109 Gurgaon | Price, Floor Plan & Brochure",
         metaDescription:
-            "Discover Prestige Sector 109 Gurgaon, Dwarka Expressway. Check the latest price, floor plans, brochure, location map, amenities, specifications, and book your premium home today.",
+            "Prestige Sector 109 Gurgaon, Dwarka Expressway. Check the latest price, floor plans, brochure, location map, amenities.",
         metaKeywords: [
             "Prestige Sector 109 Gurgaon",
             "Prestige Sector 109 Gurgaon Dwarka Expressway",

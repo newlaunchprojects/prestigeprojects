@@ -51,10 +51,6 @@ export function Amenities({ project }: { project: Project }) {
             <div className="container-page">
                 {/* Heading */}
                 <div className="max-w-2xl">
-                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.18em] text-stone-50/65">
-                        Lifestyle & Wellness
-                    </p>
-
                     <h2 className="font-display text-3xl leading-tight md:text-4xl">
                         {project.name} Amenities
                     </h2>
