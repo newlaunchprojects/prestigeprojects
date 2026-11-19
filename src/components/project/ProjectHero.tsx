@@ -84,9 +84,9 @@ export function ProjectHero({ project }: { project: Project }) {
                                 Private Enquiry
                             </p>
 
-                            <h2 className="font-display text-xl leading-tight text-ink-900">
+                            <p className="font-display text-xl leading-tight text-ink-900">
                                 Interested in {project.name}?
-                            </h2>
+                            </p>
 
                             <p className="mb-6 mt-2 text-xs leading-6 text-ink-500">
                                 Get the latest pricing, availability and site
