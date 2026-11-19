@@ -34,9 +34,9 @@ export function FAQSection({ project }: { project: Project }) {
                                 Private Enquiry
                             </p>
 
-                            <h3 className="font-display text-lg leading-tight text-ink-900 sm:text-xl">
+                            <p className="font-display text-lg leading-tight text-ink-900 sm:text-xl">
                                 Interested in {project.name}?
-                            </h3>
+                            </p>
 
                             <p className="mt-2 mb-7 text-xs leading-6 text-ink-500">
                                 Get the latest project details, pricing, and
